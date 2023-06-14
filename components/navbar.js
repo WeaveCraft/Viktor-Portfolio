@@ -15,6 +15,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
+import Logo from './logo'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -62,7 +63,7 @@ const Navbar = props => {
       >
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={'tighter'}>
-            Logo
+            <Logo/>
           </Heading>
         </Flex>
 
@@ -90,7 +91,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            GithubLogo Source
+            GithubLogo 
           </LinkItem>
         </Stack>
 

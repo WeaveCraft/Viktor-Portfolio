@@ -16,6 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import Logo from './logo'
+import { IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -91,7 +92,8 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            GithubLogo 
+            <IoLogoGithub />
+            My Github
           </LinkItem>
         </Stack>
 

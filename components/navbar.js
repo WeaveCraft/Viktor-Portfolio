@@ -17,6 +17,7 @@ import {
 import { HamburgerIcon } from '@chakra-ui/icons'
 import Logo from './logo'
 import { IoLogoGithub } from 'react-icons/io5'
+import DarkModeToggle from './darkModeToggle'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -98,7 +99,7 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
-          ThemeToggleButton
+        <DarkModeToggle />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">

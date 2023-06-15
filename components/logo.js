@@ -1,8 +1,7 @@
-import { Text, useColorModeValue } from '@chakra-ui/react';
-import Link from 'next/link';
-import Image from 'next/image';
-import styled from '@emotion/styled';
-import LogoPrint from './icons/logoPrint';
+import { Text, useColorModeValue } from '@chakra-ui/react'
+import Link from 'next/link'
+import styled from '@emotion/styled'
+import LogoPrint from './icons/logoPrint'
 
 const LogoBox = styled.span`
   font-weight: bold;
@@ -20,7 +19,7 @@ const LogoBox = styled.span`
   &:hover > svg {
     transform: rotate(20deg);
   }
-`;
+`
 
 const Logo = () => {
   return (
@@ -37,7 +36,7 @@ const Logo = () => {
         </Text>
       </LogoBox>
     </Link>
-  );
-};
+  )
+}
 
-export default Logo;
+export default Logo

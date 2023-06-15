@@ -28,9 +28,10 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       href={href}
       scroll={false}
       p={2}
-      bg={active ? 'grassTeal' : undefined}
+      bg={active ? 'orange.500' : undefined}
       color={active ? '#202023' : inactiveColor}
       target={target}
+      borderRadius="md"
       {...props}
     >
       {children}
@@ -77,7 +78,7 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
+          <LinkItem href="/projects" path={path}>
             My Projects
           </LinkItem>
           <LinkItem href="/posts" path={path}>

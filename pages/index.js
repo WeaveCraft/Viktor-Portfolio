@@ -40,7 +40,7 @@ const Page = () => {
                 <Box align="center" my={4}>
                     <Button
                         as={NextLink}
-                        href="/works"
+                        href="/projects"
                         scroll={false}
                         rightIcon={<ChevronRightIcon />}
                         colorScheme="orange"
@@ -87,6 +87,10 @@ const Page = () => {
             <BioSection>
                 <BioYear>2021</BioYear>
             .NET Software Developer education at Campus Nyköping.
+            </BioSection>
+            <BioSection>
+                <BioYear>2023</BioYear>
+            Fullstack Internship at LearningWell AB
             </BioSection>
             </Section>
             </Section>

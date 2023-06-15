@@ -1,5 +1,7 @@
-import { Container, Box, Heading, Image } from '@chakra-ui/react'
+import { Container, Box, Heading, Image, Link } from '@chakra-ui/react'
 import Section from '../components/styles/section'
+import Paragraph from '../components/styles/paragraph'
+import NextLink from 'next/link'
 
 const Page = () => {
     return (
@@ -15,16 +17,24 @@ const Page = () => {
                     </Heading>
                     <p>Digital Developer ( Frontend / Backend / DevOps )</p>
                 </Box>
-                <Box flexShrink={0} mt={{base: 4, md: 0}} ml={{md: 6}} align="center">
-                <Image borderColor="orange.500" borderWidth={3} borderRadius="full" borderStyle="solid" maxWidth="8rem" display="inline-block" src="/images/viktor.png" alt="Profile Picture"/>
+                <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center">
+                    <Image borderColor="orange.500" borderWidth={3} borderRadius="full" borderStyle="solid" maxWidth="8rem" display="inline-block" src="/images/viktor.png" alt="Profile Picture" />
                 </Box>
             </Box>
 
             <Section delay={0.2}>
-            <Heading as="h3" variant="section-title">
-            Projects
-            </Heading>
-            <p>Paragraph</p>
+                <Heading as="h3" variant="section-title">
+                    Projects
+                </Heading>
+                <Paragraph>I am an enthusiastic full-stack developer specializing in .Net technologies, based in Sweden. With a primary focus on backend development, I am passionate about creating innovative digital solutions and continuously expanding my knowledge. 
+                    I thoroughly enjoy using coding to address real-life problems and take immense pleasure in planning and building digital solutions from the ground up.
+                    When I'm not immersed in the world of programming, I find solace in nature and indulge in travel adventures. 
+                    Exploring the outdoors rejuvenates my spirit and provides inspiration for my work. In my quest to enhance my skill set as a full-stack developer, I am currently engaged in personal projects that serve as a testament to my ongoing learning and growth. 
+                    You can explore these projects on my {' '}
+                    <NextLink href="https://github.com/WeaveCraft">
+                        <Link>Github Page</Link>
+                    </NextLink>
+                    .</Paragraph>
             </Section>
         </Container>
     )

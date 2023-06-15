@@ -81,10 +81,10 @@ const Navbar = props => {
           <LinkItem href="/projects" path={path}>
             My Projects
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="/tech" path={path}>
+          Tech Experiences
           </LinkItem>
-          <LinkItem href="">Uses</LinkItem>
+          <LinkItem href="/work">Work Experiences</LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/WeaveCraft/Viktor-Portfolio"

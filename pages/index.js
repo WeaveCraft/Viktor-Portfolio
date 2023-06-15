@@ -3,6 +3,7 @@ import Section from '../components/styles/section'
 import Paragraph from '../components/styles/paragraph'
 import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
     return (
@@ -25,7 +26,7 @@ const Page = () => {
 
             <Section delay={0.2}>
                 <Heading as="h3" variant="section-title">
-                    Bio
+                    Who Am I?
                 </Heading>
                 <Paragraph>I am an enthusiastic full-stack developer specializing in .Net technologies, based in Sweden. With a primary focus on backend development, I am passionate about creating innovative digital solutions and continuously expanding my knowledge.
                     I thoroughly enjoy using coding to address real-life problems and take immense pleasure in planning and building digital solutions from the ground up.
@@ -47,7 +48,47 @@ const Page = () => {
                         My Portfolio
                     </Button>
                 </Box>
-
+            <Section delay={0.4}>
+            <Heading as="h3" variant="section-title">
+                Bio
+            </Heading>
+            <BioSection>
+                <BioYear>1994</BioYear>
+            Born in Nyköping.
+            </BioSection>
+            <BioSection>
+                <BioYear>2013</BioYear>
+            Graduated Highschool Tessin in Nyköping.
+            </BioSection>
+            <BioSection>
+                <BioYear>2014</BioYear>
+            Backpacked in Australia & USA - California.
+            </BioSection>
+            <BioSection>
+                <BioYear>2015</BioYear>
+            Worked as operator/receptionist at City Hall Nyköping.
+            </BioSection>
+            <BioSection>
+                <BioYear>2016</BioYear>
+            Went to Language school in Japan - Tokyo.
+            </BioSection>
+            <BioSection>
+                <BioYear>2017</BioYear>
+            Worked at SSAB.
+            </BioSection>
+            <BioSection>
+                <BioYear>2018</BioYear>
+            Work and current job at Skavsta Airport with Airport Security.
+            </BioSection>
+            <BioSection>
+                <BioYear>2020</BioYear>
+            Self-studying to learn programming.
+            </BioSection>
+            <BioSection>
+                <BioYear>2021</BioYear>
+            .NET Software Developer education at Campus Nyköping.
+            </BioSection>
+            </Section>
             </Section>
         </Container>
     )

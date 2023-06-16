@@ -11,6 +11,7 @@ import mifamiliaImg from '../public/images/projects/MiFamiliaApp.png'
 import pragueparkingImg from '../public/images/projects/PragueParkingApp.png'
 import quoteImg from '../public/images/projects/QuoteApp.png'
 import weatherImg from '../public/images/projects/WeatherApp.png'
+import hundredcodingImg from '../public/images/projects/100DaysCoding.png'
 
 const Projects = () => (
   <Layout title="Projects">
@@ -20,13 +21,7 @@ const Projects = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem id="petpal" title="PetPal" thumbnail={petpalImg} >
-            A .NET REST API in conjunction with an Angular 2 application that allows dog owners to register their pets and connect with other pet owners for friendship and networking.
-            Created a meetup application for dogs to facilitate knowledge sharing and help owners become better pet caretakers.
-          </WorkGridItem>
-        </Section>
-        <Section>
+        <Section delay={0.1}>
           <WorkGridItem
             id="berrasbio"
             title="BerrasBio"
@@ -45,13 +40,17 @@ const Projects = () => (
 
       <Section delay={0.2}>
         <Divider my={6} />
-
         <Heading as="h3" fontSize={20} mb={4}>
           Fullstack
         </Heading>
       </Section>
-
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section delay={0.3}>
+          <WorkGridItem id="petpal" title="PetPal" thumbnail={petpalImg} >
+            A .Net RestAPI in conjunction with an Angular 2 application that allows dog owners to register their pets and connect with other pet owners for friendship and networking.
+            Created a meetup application for dogs to facilitate knowledge sharing and help owners become better pet caretakers.
+          </WorkGridItem>
+        </Section>
         <Section delay={0.3}>
           <WorkGridItem id="mifamilia" title="MiFamilia" thumbnail={mifamiliaImg}>
             A Pinterest clone application where users can upload pictures, comment on them, and organize them based on categories.
@@ -59,7 +58,7 @@ const Projects = () => (
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
-            id="quote"
+            id="quoteapp"
             title="Quote App"
             thumbnail={quoteImg}
           >
@@ -72,7 +71,7 @@ const Projects = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          .Net
+          WinForms
         </Heading>
       </Section>
 
@@ -84,20 +83,37 @@ const Projects = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
+          <WorkGridItem id="pragueparking" title="Prague Parking" thumbnail={pragueparkingImg}>
+            A WinForms application is developed for a parking house system. This application displays the current number of vehicles parked in the parking house and the corresponding price for each vehicle.
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <Section delay={0.6}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+          Minor Projects
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.7}>
+          <WorkGridItem id="100dayscoding" title="100DaysCoding" thumbnail={hundredcodingImg}>
+            A 100 days coding challenge building minor projects with Python and PyCharm as an IDE.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.7}>
           <WorkGridItem
-            id="numberinstring"
+            id="numbersinstring"
             title="NumbersInString"
             thumbnail={numberinstringImg}
           >
             A Console application is created to read user input and generate a pattern of numbers that starts and ends with the same number. This pattern is then printed out on the console.
           </WorkGridItem>
         </Section>
-        <Section delay={0.6}>
-          <WorkGridItem id="pragueparking" title="Prague Parking" thumbnail={pragueparkingImg}>
-            A WinForms application is developed for a parking house system. This application displays the current number of vehicles parked in the parking house and the corresponding price for each vehicle.
-          </WorkGridItem>
-        </Section>
       </SimpleGrid>
+      
     </Container>
   </Layout>
 )

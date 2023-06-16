@@ -16,7 +16,12 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import Logo from './logo'
-import { IoLogoGithub } from 'react-icons/io5'
+import {
+  IoLogoGithub,
+  IoCodeSlash,
+  IoDesktop,
+  IoTerminal
+} from 'react-icons/io5'
 import DarkModeToggle from './darkModeToggle'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
@@ -66,7 +71,7 @@ const Navbar = props => {
       >
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={'tighter'}>
-            <Logo/>
+            <Logo />
           </Heading>
         </Flex>
 
@@ -78,13 +83,27 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/projects" path={path}>
+          <LinkItem href="/projects"
+            path={path}
+            display="inline-flex"
+            alignItems="center">
+            <IoCodeSlash />
             My Projects
           </LinkItem>
-          <LinkItem href="/tech" path={path}>
-          Tech Experiences
+          <LinkItem href="/tech"
+            path={path}
+            display="inline-flex"
+            alignItems="center">
+            <IoDesktop />
+            Tech Experiences
           </LinkItem>
-          <LinkItem href="/work">Work Experiences</LinkItem>
+          <LinkItem
+            href="/work"
+            display="inline-flex"
+            alignItems="center">
+            <IoTerminal />
+            Work Experiences
+          </LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/WeaveCraft/Viktor-Portfolio"
@@ -100,7 +119,7 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
-        <DarkModeToggle />
+          <DarkModeToggle />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">

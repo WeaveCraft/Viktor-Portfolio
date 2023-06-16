@@ -12,7 +12,7 @@ const VoxelRoom = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = (process.env.NODE_ENV === 'production' ? 'https://craftzdog.global.ssl.fastly.net/homepage' : '') + '/myRoom.glb'
+  const urlRoomGLB = (process.env.NODE_ENV === 'production' ? 'https://craftzdog.global.ssl.fastly.net/homepage' : '') + '/myRoom.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
@@ -25,7 +25,6 @@ const VoxelRoom = () => {
     }
   }, [])
 
-  /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
     const { current: container } = refContainer
     if (container) {
@@ -45,13 +44,11 @@ const VoxelRoom = () => {
 
       const target = new THREE.Vector3(-0.5, 1.2, 0)
       const initialCameraPosition = new THREE.Vector3(
-        20 * Math.sin(0.2 * Math.PI),
-        10,
-        20 * Math.cos(0.2 * Math.PI)
-      )
+        10 * Math.sin(0.2 * Math.PI),
+        5,
+        10 * Math.cos(0.2 * Math.PI)
+      );
 
-      // 640 -> 240
-      // 8   -> 6
       const scale = scH * 0.005 + 4.8
       const camera = new THREE.OrthographicCamera(
         -scale,
@@ -71,7 +68,7 @@ const VoxelRoom = () => {
       controls.autoRotate = true
       controls.target = target
 
-      loadGLTFModel(scene, urlDogGLB, {
+      loadGLTFModel(scene, urlRoomGLB, {
         receiveShadow: false,
         castShadow: false
       }).then(() => {

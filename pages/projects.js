@@ -52,11 +52,6 @@ const Projects = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="mifamilia" title="MiFamilia" thumbnail={mifamiliaImg}>
-            A Pinterest clone application where users can upload pictures, comment on them, and organize them based on categories.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
           <WorkGridItem
             id="quoteapp"
             title="Quote App"

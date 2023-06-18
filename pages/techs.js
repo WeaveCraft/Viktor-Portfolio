@@ -2,7 +2,7 @@ import { Container, Heading, SimpleGrid, ListItem, List } from '@chakra-ui/react
 import Layout from '../components/layouts/article'
 import Section from '../components/styles/section'
 import { Box } from '@chakra-ui/layout'
-import { SiCsharp, SiTypescript, SiJavascript, SiPython, SiCss3, SiHtml5 } from 'react-icons/si'
+import { SiCsharp, SiTypescript, SiJavascript, SiPython, SiCss3, SiHtml5, SiDocker, SiGit, SiMicrosoftazure, SiPostgresql, SiMicrosoftsqlserver, SiMongodb } from 'react-icons/si'
 import Paragraph from '../components/styles/paragraph'
 import TechnologySection from '../components/styles/technology'
 
@@ -20,7 +20,7 @@ const Tech = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <List>
             <ListItem>
-              <Box alignSelf="center" px="21" py="8">
+              <Box alignSelf="center" px="21" py="4">
                 <Heading as="h3" fontSize={17.5} mb={0} variant="section-title">
                   Backend Experiences
                 </Heading>
@@ -70,6 +70,54 @@ const Tech = () => (
                   frameworks=""
                   projects="MiFamilia, MinimalPortfolio, PetPal, HamsterWar, BerrasBio, QuoteApp"
                   hoverColor="orange.500"
+                />
+                <Heading as="h3" fontSize={17.5} mb={6} variant="section-title">
+                  DevOps And Version Control
+                </Heading>
+                <TechnologySection
+                  bgColor="blue.400"
+                  icon={SiDocker}
+                  frameworks="React, Angular"
+                  projects="QuoteApp, PetPal"
+                  hoverColor="blue.600"
+                />
+                <TechnologySection
+                  bgColor="blue.500"
+                  icon={SiMicrosoftazure}
+                  frameworks="React, Angular"
+                  projects="QuoteApp, PetPal"
+                  hoverColor="blue.600"
+                />
+                <TechnologySection
+                  bgColor="red.300"
+                  icon={SiGit}
+                  frameworks="React, Angular"
+                  projects="QuoteApp, PetPal"
+                  hoverColor="red.400"
+                />
+                <Heading as="h3" fontSize={17.5} mb={6} variant="section-title">
+                  Databases
+                </Heading>
+                <TechnologySection
+                  bgColor="blue.400"
+                  icon={SiMicrosoftsqlserver}
+                  frameworks="React, Angular"
+                  projects="QuoteApp, PetPal"
+                  hoverColor="blue.600"
+                />
+                <TechnologySection
+                  bgColor="blue.500"
+                  icon={SiPostgresql}
+                  frameworks="React, Angular"
+                  projects="QuoteApp, PetPal"
+                  hoverColor="blue.600"
+                />
+                     <TechnologySection
+                  bgColor="green.500"
+                  icon={SiMongodb}
+                  frameworks="React, Angular"
+                  projects="QuoteApp, PetPal"
+                  hoverColor="green.600"
                 />
               </Box>
             </ListItem>

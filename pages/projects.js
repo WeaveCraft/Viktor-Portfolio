@@ -7,7 +7,6 @@ import petpalImg from '../public/images/projects/PetPalApp.png'
 import berracinemaImg from '../public/images/projects/BerraCinemaApp.png'
 import numberinstringImg from '../public/images/projects/FindNumberInStringApp.png'
 import hamsterwarImg from '../public/images/projects/HamsterWarApp.png'
-import mifamiliaImg from '../public/images/projects/MiFamiliaApp.png'
 import pragueparkingImg from '../public/images/projects/PragueParkingApp.png'
 import quoteImg from '../public/images/projects/QuoteApp.png'
 import weatherImg from '../public/images/projects/WeatherApp.png'
@@ -95,7 +94,7 @@ const Projects = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.7}>
           <WorkGridItem id="100dayscoding" title="100DaysCoding" thumbnail={hundredcodingImg}>
-            A 100 days coding challenge building minor projects with Python and PyCharm as an IDE.
+            A 100 days coding challenge building minor projects with Python with PyCharm as an IDE.
           </WorkGridItem>
         </Section>
         <Section delay={0.7}>

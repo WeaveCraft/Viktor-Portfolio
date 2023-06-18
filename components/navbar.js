@@ -90,7 +90,7 @@ const Navbar = props => {
             <IoCodeSlash />
             My Projects
           </LinkItem>
-          <LinkItem href="/tech"
+          <LinkItem href="/techs"
             path={path}
             display="inline-flex"
             alignItems="center">
@@ -139,12 +139,12 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/posts">
                   Posts
                 </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
+                <MenuItem as={MenuLink} href="">
                   Uses
                 </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href=""
                 >
                   View Source
                 </MenuItem>

@@ -87,21 +87,18 @@ const Navbar = props => {
             path={path}
             display="inline-flex"
             alignItems="center">
-            <IoCodeSlash />
             My Projects
           </LinkItem>
           <LinkItem href="/techs"
             path={path}
             display="inline-flex"
             alignItems="center">
-            <IoDesktop />
             Tech Experiences
           </LinkItem>
           <LinkItem
             href="/work"
             display="inline-flex"
             alignItems="center">
-            <IoTerminal />
             Work Experiences
           </LinkItem>
           <LinkItem

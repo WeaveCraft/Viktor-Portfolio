@@ -1,11 +1,10 @@
 import { Container, Heading, SimpleGrid, ListItem, List } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/styles/section'
-import { Title, ProjectImage, Meta } from '../components/projects/projectInfo'
-import { Box, Flex, Text } from '@chakra-ui/layout';
-import Icon from '@chakra-ui/icon';
-import { SiCsharp, SiTypescript, SiJavascript, SiPython } from "react-icons/si";
+import { Box } from '@chakra-ui/layout'
+import { SiCsharp, SiTypescript, SiJavascript, SiPython, SiCss3, SiHtml5 } from 'react-icons/si'
 import Paragraph from '../components/styles/paragraph'
+import TechnologySection from '../components/styles/technology'
 
 const Tech = () => (
   <Layout title="Posts">
@@ -14,69 +13,64 @@ const Tech = () => (
         Tech Experiences
       </Heading>
       <Paragraph>
-      I possess proficiency in several languages and frameworks, along with a track record of successfully implementing projects utilizing these technologies. 
-      Feel free to explore further details about my proficiency level in each language by clicking on the respective language.
+        I possess proficiency in several languages and frameworks, along with a track record of successfully implementing projects utilizing these technologies.
+        Feel free to explore further details about my proficiency level in each language by clicking on the respective language.
       </Paragraph>
-
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <List>
-
             <ListItem>
-
               <Box alignSelf="center" px="21" py="8">
+                <Heading as="h3" fontSize={17.5} mb={0} variant="section-title">
+                  Backend Experiences
+                </Heading>
                 <Section>
-
-                  <Flex rounded="xl" direction="column" mt={4} bg="green.400" h="25vh" w="25vh" justify="flex-end" _hover={{ bg: "green.500", }}>
-                    <Icon color="white" p="4" as={SiCsharp} w="24" h="24" />
-                    <Text color="white" p="4" fontSize="xl" fontWeight="semibold">
-                      <Meta>Frameworks:</Meta>
-                      <span style={{ fontSize: 'small' }}>.NET <br /></span>
-                      <Meta>Projects:</Meta>
-                      <span style={{ fontSize: 'small' }}>BerrasBio, HamsterWar, PetPal</span>
-                    </Text>
-                  </Flex>
-                  
-                <Flex rounded="xl" direction="column" mt={4}
-                  bg="#306998" h="25vh" w="25vh" justify="flex-end"
-                  _hover={{ bg: "#27567C", }}
-
-                >
-                  <Icon as={SiPython} p="4" w="24" h="24" color="white" />
-                  <Text color="white" p="4" fontSize="xl" fontWeight="semibold">
-                    <Meta>Frameworks:</Meta>
-                    <span style={{ fontSize: 'small' }}>Django <br /></span>
-                    <Meta>Projects:</Meta>
-                    <span style={{ fontSize: 'small' }}>100DaysCoding</span>
-                  </Text>
-                </Flex>
+                  <TechnologySection
+                    bgColor="green.400"
+                    icon={SiCsharp}
+                    frameworks=".NET"
+                    projects="BerrasBio, HamsterWar, PetPal"
+                    hoverColor="green.600"
+                  />
+                  <TechnologySection
+                    bgColor="#306998"
+                    icon={SiPython}
+                    frameworks="Django"
+                    projects="100DaysCoding"
+                    hoverColor="#27567C"
+                  />
                 </Section>
-                <Flex rounded="xl" direction="column" mt={4}
-                  bg="blue.400" h="25vh" w="25vh" justify="flex-end" _hover={{ bg: "blue.500", }}>
-                  <Icon color="black" p="4" as={SiTypescript} w="24" h="24" />
-                  <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
-                    <Meta>Frameworks:</Meta>
-                    <span style={{ fontSize: 'small' }}>React, Angular</span>
-                    <Meta>Projects:</Meta>
-                    <span style={{ fontSize: 'small' }}>QuoteApp, PetPal</span>
-                  </Text>
-                </Flex>
-
-                <Flex rounded="xl" direction="column" mt={4}
-                  bg="yellow.300" h="25vh" w="25vh" justify="flex-end"
-                  _hover={{ bg: "yellow.400", }}
-
-                >
-                  <Icon as={SiJavascript} p="4" w="24" h="24" color="black" />
-                  <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
-                    <Meta>Frameworks:</Meta>
-                    <span style={{ fontSize: 'small' }}>React.js, Next.js</span>
-                    <Meta>Projects:</Meta>
-                    <span style={{ fontSize: 'small' }}>MiFamilia, MinimalPortfolio</span>
-                  </Text>
-                </Flex>
-
-
+                <Heading as="h3" fontSize={17.5} mb={6} variant="section-title">
+                  Frontend Experiences
+                </Heading>
+                <TechnologySection
+                  bgColor="blue.400"
+                  icon={SiTypescript}
+                  frameworks="React, Angular"
+                  projects="QuoteApp, PetPal"
+                  hoverColor="blue.600"
+                />
+                <TechnologySection
+                  bgColor="yellow.300"
+                  icon={SiJavascript}
+                  frameworks="React.js, Next.js"
+                  projects="MiFamilia, MinimalPortfolio"
+                  hoverColor="yellow.400"
+                />
+                <TechnologySection
+                  bgColor="purple.700"
+                  icon={SiCss3}
+                  frameworks="Bootstrap, Tailwind, Scss"
+                  projects="MiFamilia, MinimalPortfolio, PetPal, HamsterWar, BerrasBio, QuoteApp"
+                  hoverColor="purple.800"
+                />
+                <TechnologySection
+                  bgColor="orange.400"
+                  icon={SiHtml5}
+                  frameworks=""
+                  projects="MiFamilia, MinimalPortfolio, PetPal, HamsterWar, BerrasBio, QuoteApp"
+                  hoverColor="orange.500"
+                />
               </Box>
             </ListItem>
           </List>

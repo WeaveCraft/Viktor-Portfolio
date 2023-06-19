@@ -3,6 +3,7 @@ import { Box, Container } from '@chakra-ui/react'
 import Navbar from '../navbar'
 import VoxelRoom from '../voxel-room'
 import NoSsr from '../no-ssr'
+import Footer from '../footer'
 
 const Main = ({ children, router }) => {
     return (
@@ -19,6 +20,7 @@ const Main = ({ children, router }) => {
                 <VoxelRoom />
                 </NoSsr>
                 {children}
+                <Footer />
             </Container>
         </Box>
     )

@@ -84,21 +84,16 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/projects"
-            path={path}
-            display="inline-flex"
-            alignItems="center">
+            path={path}>
             My Projects
           </LinkItem>
           <LinkItem href="/techs"
-            path={path}
-            display="inline-flex"
-            alignItems="center">
+            path={path}>
             Tech Experiences
           </LinkItem>
           <LinkItem
             href="/works"
-            display="inline-flex"
-            alignItems="center">
+            path={path}>
             Work Experiences
           </LinkItem>
           <LinkItem
@@ -127,23 +122,20 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <MenuItem as={MenuLink} href="/">
+                <MenuItem as={MenuLink} href="/projects">
                   My Projects
                 </MenuItem>
+                <MenuItem as={MenuLink} href="/techs">
+                  Tech Experiences
+                </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
-                  About
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
-                </MenuItem>
-                <MenuItem as={MenuLink} href="">
-                  Uses
+                  Work Experiences
                 </MenuItem>
                 <MenuItem
                   as={Link}
-                  href=""
+                  href="https://github.com/WeaveCraft/Viktor-Portfolio"
                 >
-                  View Source
+                  My Github
                 </MenuItem>
               </MenuList>
             </Menu>

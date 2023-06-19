@@ -96,7 +96,7 @@ const Navbar = props => {
             Tech Experiences
           </LinkItem>
           <LinkItem
-            href="/work"
+            href="/works"
             display="inline-flex"
             alignItems="center">
             Work Experiences

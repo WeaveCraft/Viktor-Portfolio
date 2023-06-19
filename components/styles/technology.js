@@ -1,6 +1,6 @@
 import { Flex, Text, Box } from '@chakra-ui/layout'
 import Icon from '@chakra-ui/icon'
-import { Meta } from '../projects/projectInfo'
+import { Meta } from '../projectInfo'
 import styled from '@emotion/styled';
 
 const Line = styled(Box)`

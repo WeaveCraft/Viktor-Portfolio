@@ -7,7 +7,7 @@ import {
     AspectRatio
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { Title, ProjectImage, Meta } from '../../components/projects/projectInfo'
+  import { Title, ProjectImage, Meta } from '../../components/projectInfo'
   import P from '../../components/styles/paragraph'
   import Layout from '../../components/layouts/article'
   
@@ -57,4 +57,4 @@ import {
   )
   
   export default Project
-  export { getServerSideProps } from '../../components/projects/chakra'
+  export { getServerSideProps } from '../../components/chakra'

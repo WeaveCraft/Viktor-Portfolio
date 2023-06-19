@@ -2,9 +2,7 @@ import { Container, Heading, SimpleGrid, ListItem, List } from '@chakra-ui/react
 import Layout from '../components/layouts/article'
 import Section from '../components/styles/section'
 import { Box } from '@chakra-ui/layout'
-import { SiCsharp, SiTypescript, SiJavascript, SiPython, SiCss3, SiHtml5, SiDocker, SiGit, SiMicrosoftazure, SiPostgresql, SiMicrosoftsqlserver, SiMongodb } from 'react-icons/si'
 import Paragraph from '../components/styles/paragraph'
-import TechnologySection from '../components/styles/technology'
 
 const Tech = () => (
     <Layout title="Posts">
@@ -24,9 +22,9 @@ const Tech = () => (
                                 <Heading as="h3" fontSize={17.5} mb={0} variant="section-title">
                                     H&M Colchester
                                 </Heading>
-<Paragraph>
-    Worked with clothes.
-</Paragraph>
+                                <Paragraph>
+                                    Worked with clothes.
+                                </Paragraph>
                             </Box>
                         </ListItem>
                     </List>
@@ -37,4 +35,4 @@ const Tech = () => (
 )
 
 export default Tech
-export { getServerSideProps } from '../components/projects/chakra'
+export { getServerSideProps } from '../components/chakra'

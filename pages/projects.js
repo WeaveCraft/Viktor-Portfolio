@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/styles/section'
-import { WorkGridItem } from '../components/projects/gridItem'
+import { WorkGridItem } from '../components/gridItem'
 
 import petpalImg from '../public/images/projects/PetPalApp.png'
 import berracinemaImg from '../public/images/projects/BerraCinemaApp.png'
@@ -113,4 +113,4 @@ const Projects = () => (
 )
 
 export default Projects
-export { getServerSideProps } from '../components/projects/chakra'
+export { getServerSideProps } from '../components/chakra'

@@ -129,4 +129,4 @@ const Tech = () => (
 )
 
 export default Tech
-export { getServerSideProps } from '../components/projects/chakra'
+export { getServerSideProps } from '../components/chakra'

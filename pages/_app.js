@@ -9,7 +9,11 @@ const Website = ({ Component, pageProps, router }) => {
         <ChakraProvider theme={theme}>
             <Fonts />
             <Layout router={router} style={{ background: 'black', color: 'white' }}>
-                <AnimatePresence initial={true}>
+                <AnimatePresence initial={true} onExitComplete={() => {
+            if (typeof window !== 'undefined') {
+              window.scrollTo({ top: 0 })
+            }
+          }} >
                 <Component {...pageProps} key={router.route} />
                 </AnimatePresence>
             </Layout>

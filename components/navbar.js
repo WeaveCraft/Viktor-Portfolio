@@ -16,12 +16,6 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import Logo from './logo'
-import {
-  IoLogoGithub,
-  IoCodeSlash,
-  IoDesktop,
-  IoTerminal
-} from 'react-icons/io5'
 import DarkModeToggle from './darkModeToggle'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
@@ -96,18 +90,7 @@ const Navbar = props => {
             path={path}>
             Work Experiences
           </LinkItem>
-          <LinkItem
-            target="_blank"
-            href="https://github.com/WeaveCraft/Viktor-Portfolio"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            <IoLogoGithub />
-            My Github
-          </LinkItem>
+          
         </Stack>
 
         <Box flex={1} align="right">

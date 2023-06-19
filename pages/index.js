@@ -1,10 +1,11 @@
-import { Container, Box, Heading, Image, Link, Button } from '@chakra-ui/react'
+import { Container, Box, Heading, Image, Link, Button, List, ListItem } from '@chakra-ui/react'
 import Section from '../components/styles/section'
 import Paragraph from '../components/styles/paragraph'
 import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
+import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
 
 const Page = () => {
     return (
@@ -105,6 +106,46 @@ const Page = () => {
                         See My Work Experiences
                     </Button>
                 </Box>
+
+                <Heading as="h3" variant="section-title">
+          Where To Find Me
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://github.com/WeaveCraft" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGithub />}
+              >
+                @WeaveCraft
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/viktor-hurtig-330547216/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                @viktor-hurtig
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.instagram.com/vihu_1994/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
+              >
+                @vihu_1994
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
+
             </Section>
             </Section>
         </Container>

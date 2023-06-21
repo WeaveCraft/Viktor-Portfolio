@@ -7,7 +7,7 @@ import Paragraph from '../components/styles/paragraph'
 import TechnologySection from '../components/styles/technology'
 
 const Tech = () => (
-  <Layout title="Posts">
+  <Layout title="Techs">
     <Container>
       <Heading as="h3" fontSize={20} mb={4} variant="section-title">
         Tech Experiences
@@ -26,98 +26,124 @@ const Tech = () => (
                 </Heading>
                 <Section>
                   <TechnologySection
+                    id="csharp"
+                    title="Csharp"
                     bgColor="green.400"
                     icon={SiCsharp}
                     frameworks=".NET"
                     projects="BerrasBio, HamsterWar, PetPal"
                     hoverColor="green.600"
+                    language="C#"
                   />
                   <TechnologySection
+                    id="python"
+                    title="Python"
                     bgColor="#306998"
                     icon={SiPython}
                     frameworks="Django"
                     projects="100DaysCoding"
                     hoverColor="#27567C"
+                    language="Python"
                   />
                 </Section>
                 <Heading as="h3" fontSize={17.5} mb={6} variant="section-title">
                   Frontend Experiences
                 </Heading>
                 <TechnologySection
+                  id="typescript"
                   bgColor="blue.400"
                   icon={SiTypescript}
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
+                  language="TypeScript"
                 />
                 <TechnologySection
+                  id="javascript"
                   bgColor="yellow.300"
                   icon={SiJavascript}
                   frameworks="React.js, Next.js"
                   projects="MiFamilia, MinimalPortfolio"
                   hoverColor="yellow.400"
+                  language="JavaScript"
                 />
                 <TechnologySection
+                  id="css"
                   bgColor="purple.700"
                   icon={SiCss3}
                   frameworks="Bootstrap, Tailwind, Scss"
                   projects="MiFamilia, MinimalPortfolio, PetPal, HamsterWar, BerrasBio, QuoteApp"
                   hoverColor="purple.800"
+                  language="CSS3"
                 />
                 <TechnologySection
+                  id="html"
                   bgColor="orange.400"
                   icon={SiHtml5}
                   frameworks=""
                   projects="MiFamilia, MinimalPortfolio, PetPal, HamsterWar, BerrasBio, QuoteApp"
                   hoverColor="orange.500"
+                  language="HTML5"
                 />
                 <Heading as="h3" fontSize={17.5} mb={6} variant="section-title">
                   DevOps And Version Control
                 </Heading>
                 <TechnologySection
+                  id="docker"
                   bgColor="blue.400"
                   icon={SiDocker}
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
+                  language="Docker"
                 />
                 <TechnologySection
+                  id="azure"
                   bgColor="blue.500"
                   icon={SiMicrosoftazure}
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
+                  language="Azure"
                 />
                 <TechnologySection
+                  id="git"
                   bgColor="red.300"
                   icon={SiGit}
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="red.400"
+                  language="Git"
                 />
                 <Heading as="h3" fontSize={17.5} mb={6} variant="section-title">
                   Databases
                 </Heading>
                 <TechnologySection
+                  id="sqlserver"
                   bgColor="blue.400"
                   icon={SiMicrosoftsqlserver}
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
+                  language="SQL Server"
                 />
                 <TechnologySection
+                  id="postgresql"
                   bgColor="blue.500"
                   icon={SiPostgresql}
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
+                  language="PostgreSQL"
                 />
-                     <TechnologySection
+                <TechnologySection
+                  id="mongodb"
                   bgColor="green.500"
                   icon={SiMongodb}
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="green.600"
+                  language="MongoDB"
                 />
               </Box>
             </ListItem>

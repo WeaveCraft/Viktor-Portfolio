@@ -90,6 +90,11 @@ const Navbar = props => {
             path={path}>
             Work Experiences
           </LinkItem>
+          <LinkItem
+            href="/studies"
+            path={path}>
+            Study Experiences
+          </LinkItem>
           
         </Stack>
 

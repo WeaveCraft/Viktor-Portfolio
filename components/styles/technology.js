@@ -1,4 +1,4 @@
-import { Flex, Text, Box, LinkBox, LinkOverlay } from '@chakra-ui/layout';
+import { Flex, Text, Box, LinkBox } from '@chakra-ui/layout';
 import Icon from '@chakra-ui/icon';
 import { Meta } from '../projectInfo';
 import styled from '@emotion/styled';
@@ -14,8 +14,35 @@ const Line = styled(Box)`
   transform: translateY(-50%);
 `;
 
-const TechnologySection = ({ bgColor, icon, frameworks, projects, hoverColor, id, title }) => (
-  <LinkBox as={NextLink} href={`/techs/${id}`}>
+const Bar = styled(Box)`
+  position: absolute;
+  top: 0;
+  right: -12rem;
+  height: 100%;
+  width: 2px;
+  background: darkgray;
+`;
+
+const LanguageText = styled(Text)`
+  position: absolute;
+  top: 50%;
+  right: -12rem;
+  transform: translateY(-50%);
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+`;
+
+const TechnologySection = ({
+  bgColor,
+  icon,
+  frameworks,
+  projects,
+  hoverColor,
+  id,
+  title,
+  language
+}) => (
+    <LinkBox as={NextLink} href={`/techs/${id}`} scroll={false} cursor="pointer">
       <Flex
         rounded="xl"
         direction="column"
@@ -27,23 +54,24 @@ const TechnologySection = ({ bgColor, icon, frameworks, projects, hoverColor, id
         _hover={{ bg: hoverColor }}
         position="relative"
         alt={title}
-        cursor="pointer"
       >
         <Flex position="absolute" top={0} left={0} p={4}>
           <Icon as={icon} w={16} h={16} color="white" />
         </Flex>
 
-        <LinkOverlay as="div" href={`/projects/${id}`}>
-        <Text color="white" p="4" fontSize="xl" fontWeight="semibold">
-          <Meta>Frameworks:</Meta>
-          <span style={{ fontSize: 'small' }}>{frameworks}</span>
-          <Meta>Projects:</Meta>
-          <span style={{ fontSize: 'small' }}>{projects}</span>
-        </Text>
-        </LinkOverlay>
+          <Text color="white" p="4" fontSize="xl" fontWeight="semibold">
+            <Meta>Frameworks:</Meta>
+            <span style={{ fontSize: 'small' }}>{frameworks}</span>
+            <Meta>Projects:</Meta>
+            <span style={{ fontSize: 'small' }}>{projects}</span>
+          </Text>
+
         <Line />
       </Flex>
-  </LinkBox>
+
+    <Bar />
+    <LanguageText>{language}</LanguageText>
+    </LinkBox>
 );
 
 export default TechnologySection;

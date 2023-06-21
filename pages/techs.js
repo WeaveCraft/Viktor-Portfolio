@@ -33,7 +33,7 @@ const Tech = () => (
                     frameworks=".NET"
                     projects="BerrasBio, HamsterWar, PetPal"
                     hoverColor="green.600"
-                    language="C#"
+                    language="CSHARP"
                   />
                   <TechnologySection
                     id="python"
@@ -43,7 +43,7 @@ const Tech = () => (
                     frameworks="Django"
                     projects="100DaysCoding"
                     hoverColor="#27567C"
-                    language="Python"
+                    language="PYTHON"
                   />
                 </Section>
                 <Heading as="h3" fontSize={17.5} mb={6} variant="section-title">
@@ -56,7 +56,7 @@ const Tech = () => (
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
-                  language="TypeScript"
+                  language="TYPESCRIPT"
                 />
                 <TechnologySection
                   id="javascript"
@@ -65,7 +65,7 @@ const Tech = () => (
                   frameworks="React.js, Next.js"
                   projects="MiFamilia, MinimalPortfolio"
                   hoverColor="yellow.400"
-                  language="JavaScript"
+                  language="JAVASCRIPT"
                 />
                 <TechnologySection
                   id="css"
@@ -95,7 +95,7 @@ const Tech = () => (
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
-                  language="Docker"
+                  language="DOCKER"
                 />
                 <TechnologySection
                   id="azure"
@@ -104,7 +104,7 @@ const Tech = () => (
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
-                  language="Azure"
+                  language="AZURE"
                 />
                 <TechnologySection
                   id="git"
@@ -113,7 +113,7 @@ const Tech = () => (
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="red.400"
-                  language="Git"
+                  language="GIT"
                 />
                 <Heading as="h3" fontSize={17.5} mb={6} variant="section-title">
                   Databases
@@ -125,7 +125,7 @@ const Tech = () => (
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
-                  language="SQL Server"
+                  language="SQLSERVER"
                 />
                 <TechnologySection
                   id="postgresql"
@@ -134,7 +134,7 @@ const Tech = () => (
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
-                  language="PostgreSQL"
+                  language="POSTGRESQL"
                 />
                 <TechnologySection
                   id="mongodb"
@@ -143,7 +143,7 @@ const Tech = () => (
                   frameworks="React, Angular"
                   projects="QuoteApp, PetPal"
                   hoverColor="green.600"
-                  language="MongoDB"
+                  language="MONGODB"
                 />
               </Box>
             </ListItem>

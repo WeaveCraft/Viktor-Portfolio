@@ -12,7 +12,7 @@ import quoteImg from '../public/images/projects/QuoteApp.png'
 import weatherImg from '../public/images/projects/WeatherApp.png'
 import hundredcodingImg from '../public/images/projects/100DaysCoding.png'
 
-const Projects = () => (
+const Project = () => (
   <Layout title="Projects">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
@@ -112,5 +112,5 @@ const Projects = () => (
   </Layout>
 )
 
-export default Projects
+export default Project
 export { getServerSideProps } from '../components/chakra'

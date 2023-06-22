@@ -29,6 +29,10 @@ const TypescriptTech = () => {
             description: 'QuoteApp',
             githubLink: 'https://github.com/WeaveCraft/Quote-App',
           },
+          {
+            description: 'PetPal',
+            githubLink: 'https://github.com/WeaveCraft/PetPal',
+          },
         ]}
       />
     </Layout>

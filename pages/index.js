@@ -5,7 +5,7 @@ import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
-import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin  } from 'react-icons/io5'
 
 const Page = () => {
     return (
@@ -53,7 +53,7 @@ const Page = () => {
                 </Box>
             <Section delay={0.4}>
             <Heading as="h3" variant="section-title">
-                Bio
+                Important Moments
             </Heading>
             <BioSection>
                 <BioYear>1994</BioYear>
@@ -69,7 +69,7 @@ const Page = () => {
             </BioSection>
             <BioSection>
                 <BioYear>2015</BioYear>
-            Worked as operator/receptionist at City Hall Nyköping.
+            Started learning Japanese through university in Sweden.
             </BioSection>
             <BioSection>
                 <BioYear>2016</BioYear>
@@ -77,11 +77,15 @@ const Page = () => {
             </BioSection>
             <BioSection>
                 <BioYear>2017</BioYear>
-            Worked at SSAB.
+            Moved to Sweden and studied japanese in university.
             </BioSection>
             <BioSection>
                 <BioYear>2018</BioYear>
             Work and current job at Skavsta Airport with Airport Security.
+            </BioSection>
+            <BioSection>
+                <BioYear>2019</BioYear>
+            Started studying mathematics, physics and chemistry.
             </BioSection>
             <BioSection>
                 <BioYear>2020</BioYear>
@@ -92,8 +96,12 @@ const Page = () => {
             .NET Software Developer education at Campus Nyköping.
             </BioSection>
             <BioSection>
+                <BioYear>2022</BioYear>
+            Fullstack Internship at LearningWell AB.
+            </BioSection>
+            <BioSection>
                 <BioYear>2023</BioYear>
-            Fullstack Internship at LearningWell AB
+            Graduated from my Software Development Program!
             </BioSection>
             <Box align="center" my={4}>
                     <Button
@@ -107,6 +115,24 @@ const Page = () => {
                     </Button>
                 </Box>
 
+                <Section delay={0.5}>
+                <Heading as="h3" variant="section-title">
+                    What I ♥
+                </Heading>
+                <Paragraph>
+                    </Paragraph>
+                <Box align="center" my={4}>
+                    <Button
+                        as={NextLink}
+                        href="/techs"
+                        scroll={false}
+                        rightIcon={<ChevronRightIcon />}
+                        colorScheme="orange"
+                    >
+                        See My Current Tech Skills
+                    </Button>
+                </Box>
+                </Section>
                 <Heading as="h3" variant="section-title">
           Where To Find Me
         </Heading>

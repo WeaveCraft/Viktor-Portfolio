@@ -10,7 +10,7 @@ const CSharpTech = () => {
         color="#2B6CB0"
         icon={<SiMicrosoftsqlserver />}
         backButtonHref="/techs"
-        ongoingActivity="I am currently working on a C# project."
+        proficiencyText="I am currently working on a C# project."
         learningJourney="My learning journey for C# goes here."
         references={[
           { 

@@ -30,8 +30,7 @@ const Tech = () => (
                     title="Csharp"
                     bgColor="green.400"
                     icon={SiCsharp}
-                    frameworks=".NET"
-                    projects="BerrasBio, HamsterWar, PetPal"
+                    frameworks=".NET, ASP.NET, Entity Framework, Dapper"
                     hoverColor="green.600"
                     language="CSHARP"
                   />
@@ -41,7 +40,6 @@ const Tech = () => (
                     bgColor="#306998"
                     icon={SiPython}
                     frameworks="Django"
-                    projects="100DaysCoding"
                     hoverColor="#27567C"
                     language="PYTHON"
                   />
@@ -54,7 +52,6 @@ const Tech = () => (
                   bgColor="blue.400"
                   icon={SiTypescript}
                   frameworks="React, Angular"
-                  projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
                   language="TYPESCRIPT"
                 />
@@ -63,7 +60,6 @@ const Tech = () => (
                   bgColor="yellow.300"
                   icon={SiJavascript}
                   frameworks="React.js, Next.js"
-                  projects="MiFamilia, MinimalPortfolio"
                   hoverColor="yellow.400"
                   language="JAVASCRIPT"
                 />
@@ -71,8 +67,7 @@ const Tech = () => (
                   id="css"
                   bgColor="purple.700"
                   icon={SiCss3}
-                  frameworks="Bootstrap, Tailwind, Scss"
-                  projects="MiFamilia, MinimalPortfolio, PetPal, HamsterWar, BerrasBio, QuoteApp"
+                  frameworks="Bootstrap, Tailwind, Scss, Styled Component"
                   hoverColor="purple.800"
                   language="CSS3"
                 />
@@ -80,8 +75,6 @@ const Tech = () => (
                   id="html"
                   bgColor="orange.400"
                   icon={SiHtml5}
-                  frameworks=""
-                  projects="MiFamilia, MinimalPortfolio, PetPal, HamsterWar, BerrasBio, QuoteApp"
                   hoverColor="orange.500"
                   language="HTML5"
                 />
@@ -92,8 +85,6 @@ const Tech = () => (
                   id="docker"
                   bgColor="blue.400"
                   icon={SiDocker}
-                  frameworks="React, Angular"
-                  projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
                   language="DOCKER"
                 />
@@ -101,8 +92,6 @@ const Tech = () => (
                   id="azure"
                   bgColor="blue.500"
                   icon={SiMicrosoftazure}
-                  frameworks="React, Angular"
-                  projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
                   language="AZURE"
                 />
@@ -110,8 +99,6 @@ const Tech = () => (
                   id="git"
                   bgColor="red.300"
                   icon={SiGit}
-                  frameworks="React, Angular"
-                  projects="QuoteApp, PetPal"
                   hoverColor="red.400"
                   language="GIT"
                 />
@@ -122,8 +109,6 @@ const Tech = () => (
                   id="sqlserver"
                   bgColor="blue.400"
                   icon={SiMicrosoftsqlserver}
-                  frameworks="React, Angular"
-                  projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
                   language="SQLSERVER"
                 />
@@ -131,8 +116,6 @@ const Tech = () => (
                   id="postgresql"
                   bgColor="blue.500"
                   icon={SiPostgresql}
-                  frameworks="React, Angular"
-                  projects="QuoteApp, PetPal"
                   hoverColor="blue.600"
                   language="POSTGRESQL"
                 />
@@ -140,8 +123,6 @@ const Tech = () => (
                   id="mongodb"
                   bgColor="green.500"
                   icon={SiMongodb}
-                  frameworks="React, Angular"
-                  projects="QuoteApp, PetPal"
                   hoverColor="green.600"
                   language="MONGODB"
                 />

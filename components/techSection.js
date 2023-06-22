@@ -5,7 +5,7 @@ import Paragraph from './styles/paragraph';
 import NextLink from 'next/link';
 import { BioSection, BioYear } from './bio';
 
-const TechSection = ({ title, color, icon, backButtonHref, ongoingActivity, learningJourney, references, projects }) => {
+const TechSection = ({ title, color, icon, backButtonHref, proficiencyLevel, proficiencyText, learningJourney, references, projects }) => {
   return (
     <Container>
       <Box borderRadius="lg" bg="#363636" p={3} mb={6} align="center">
@@ -31,17 +31,18 @@ const TechSection = ({ title, color, icon, backButtonHref, ongoingActivity, lear
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Ongoing Activity
+          Proficiency Level - {proficiencyLevel}
         </Heading>
         <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
           <Paragraph>
-            {ongoingActivity}
+            {proficiencyText}
           </Paragraph>
         </Box>
 
+        
         <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
-            Learning Journey
+            Educational Journey
           </Heading>
           <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
             <Paragraph>
@@ -81,7 +82,7 @@ const TechSection = ({ title, color, icon, backButtonHref, ongoingActivity, lear
                   <Heading as="h4" variant="section-subtitle" color={color}>
                     {project.title}
                   </Heading>
-                  <BioSection> 
+                  <BioSection>
                     {/* BioSection is component reused to display Year with a comment.
                     It's originally created for index.js page but is reintroduced here. */}
                     <BioYear>{project.year}</BioYear>

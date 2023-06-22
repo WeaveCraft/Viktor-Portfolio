@@ -1,8 +1,8 @@
-import { SiTypescript, SiUdemy  } from 'react-icons/si';
-import Layout from '../../components/layouts/article';
-import TechSection from '../../components/techSection';
+import { SiTypescript, SiUdemy  } from 'react-icons/si'
+import Layout from '../../components/layouts/article'
+import TechSection from '../../components/techSection'
 
-const CSharpTech = () => {
+const TypescriptTech = () => {
   return (
     <Layout id="typescript">
       <TechSection
@@ -10,8 +10,8 @@ const CSharpTech = () => {
         color="#2B6CB0"
         icon={<SiTypescript />}
         backButtonHref="/techs"
-        ongoingActivity="I am currently working on a C# project."
-        learningJourney="My learning journey for C# goes here."
+        proficiencyText="I am currently working on a C# project."
+        learningJourney="My fafalearning journey for C# goes here."
         references={[
           { 
             label: '@100-days-of-code', 
@@ -21,19 +21,14 @@ const CSharpTech = () => {
         ]}
         projects={[
           {
-            description: 'HamsterWar',
-            githubLink: '/projects/project1',
-            year: "2023",
-          },
-          {
-            description: 'PetPal',
-            githubLink: '/projects/project2',
+            description: '100DaysCodingPython',
+            githubLink: 'https://github.com/WeaveCraft/100DaysCodingPython',
             year: "2023",
           },
         ]}
       />
     </Layout>
-  );
-};
+  )
+}
 
-export default CSharpTech;
+export default TypescriptTech

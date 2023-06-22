@@ -1,34 +1,36 @@
-import { SiTypescript, SiUdemy  } from 'react-icons/si'
-import Layout from '../../components/layouts/article'
-import TechSection from '../../components/techSection'
+import { SiCsharp, SiUdemy, SiYoutube } from 'react-icons/si';
+import { IoIosSchool } from 'react-icons/io';
+import Layout from '../../components/layouts/article';
+import TechSection from '../../components/techSection';
 
-const TypescriptTech = () => {
+const CSharpTech = () => {
   return (
-    <Layout id="typescript">
+    <Layout id="csharp">
       <TechSection
-        title="Typescript"
-        color="#2B6CB0"
-        icon={<SiTypescript />}
+        title="CSHARP"
+        color="#2F855A"
+        icon={<SiCsharp />}
         backButtonHref="/techs"
-        proficiencyText="I am currently working on a C# project."
-        learningJourney="My fafalearning journey for C# goes here."
+        proficiencyLevel="Intermediate"
+        proficiencyText=""
+        learningJourney=""
         references={[
-          { 
-            label: '@100-days-of-code', 
-            link: 'https://www.udemy.com/course/100-days-of-code/',
-            icon: <SiUdemy />,
+          {
+            label: '@C# Basics for Beginners: Learn C# Fundamentals by Coding',
+            link: 'https://www.udemy.com/course/csharp-tutorial-for-beginners/',
+            icon: <SiUdemy />
           },
+        
         ]}
         projects={[
           {
-            description: '100DaysCodingPython',
-            githubLink: 'https://github.com/WeaveCraft/100DaysCodingPython',
-            year: "2023",
+            description: 'PetPal',
+            githubLink: '/projects/project1',
           },
         ]}
       />
     </Layout>
-  )
-}
+  );
+};
 
-export default TypescriptTech
+export default CSharpTech;

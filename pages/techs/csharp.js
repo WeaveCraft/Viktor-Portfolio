@@ -55,11 +55,6 @@ const CSharpTech = () => {
             link: 'https://www.youtube.com/@freecodecamp',
             icon: <SiYoutube />
           },
-          {
-            label: '@shadsluiter',
-            link: 'https://www.youtube.com/@shadsluiter',
-            icon: <SiYoutube />
-          },
         ]}
         projects={[
           {

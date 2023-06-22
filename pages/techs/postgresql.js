@@ -1,31 +1,30 @@
-import { SiCsharp, SiUdemy, SiYoutube } from 'react-icons/si';
+import { SiPostgresql, SiUdemy, SiYoutube } from 'react-icons/si';
 import { IoIosSchool } from 'react-icons/io';
 import Layout from '../../components/layouts/article';
 import TechSection from '../../components/techSection';
 
-const CSharpTech = () => {
+const PostgreSqlTech = () => {
   return (
-    <Layout id="csharp">
+    <Layout id="postgresql">
       <TechSection
-        title="CSHARP"
-        color="#2F855A"
-        icon={<SiCsharp />}
+        title="POSTGRESQL"
+        color="#3182CE"
+        icon={<SiPostgresql />}
         backButtonHref="/techs"
-        proficiencyLevel="Intermediate"
-        proficiencyText=""
-        learningJourney=""
+        proficiencyLevel="Novice"
+        proficiencyText="
+        Collaborating in a small team of two people, I gained valuable hands-on experience in building and managing data using PostgreSQL with Dapper."
+        learningJourney="I had the opportunity to implement and build a database for the application QuoteApp, 
+        where I worked on gathering and collecting quotes from an external API. This hands-on experience allowed me to gain practical knowledge in working with PostgreSQL and integrating it seamlessly with the application."
         references={[
           {
-            label: '@C# Basics for Beginners: Learn C# Fundamentals by Coding',
-            link: 'https://www.udemy.com/course/csharp-tutorial-for-beginners/',
-            icon: <SiUdemy />
+            label: '@LearningWell AB',
           },
-        
         ]}
         projects={[
           {
-            description: 'PetPal',
-            githubLink: '/projects/project1',
+            description: 'QuoteApp',
+            githubLink: 'https://github.com/WeaveCraft/Quote-App',
           },
         ]}
       />
@@ -33,4 +32,4 @@ const CSharpTech = () => {
   );
 };
 
-export default CSharpTech;
+export default PostgreSqlTech;

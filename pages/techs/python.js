@@ -20,7 +20,7 @@ const Tech = () => {
           <span style={{ color: '#3B6A96' }}>WHERE</span>
           <span style={{ color: 'white' }}> Repo</span>
           <span style={{ color: '#3B6A96' }}> CONTAINS</span>
-          <span style={{ color: 'white' }}>'Python'</span>
+          <span style={{ color: 'white' }}> 'Python'</span>
         </Box>
 
         <Section delay={0.2}>
@@ -38,28 +38,29 @@ const Tech = () => {
           <Heading as="h3" variant="section-title">
             Ongoing Activity
           </Heading>
-          <Paragraph>
             <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
+          <Paragraph>
               I am challenging myself with 100DaysCodingPython using PyCharm as my Integrated Development Environment (IDE) to push myself to new heights.
               Throughout this challenge, I am dedicated to constructing innovative solutions for various tasks, including the development of a small-scale "Coffee Machine Application" and other similar projects.
-            </Box>
           </Paragraph>
+            </Box>
 
           <Section delay={0.4}>
             <Heading as="h3" variant="section-title">
               Learning Journey
             </Heading>
-            <Paragraph>
               <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
+            <Paragraph>
                 Having acquired proficiency in C#, I expressed a desire to expand my expertise in backend development by exploring a different programming language.
                 Python was among the initial languages I ventured into in 2020.
                 Subsequently, my curiosity to delve deeper into Python persisted, prompting me to select it as my next backend language of focus. Presently,
                 I am actively engaged in a comprehensive learning experience facilitated by an accomplished instructor via Udemy, meticulously coding alongside her guidance.
                 Considering the instructor's preference for PyCharm as the integrated development environment (IDE),
                 I made a deliberate choice to align my coding practices by utilizing the same toolset. Embracing novel development tools not only fosters enjoyment but also serves as a source of inspiration for me.
+                    </Paragraph>
               </Box>
               <Heading as="h3" variant="section-title">
-                Sources
+              Reliable References
               </Heading>
               <List>
                 <ListItem>
@@ -74,7 +75,6 @@ const Tech = () => {
                   </Link>
                 </ListItem>
               </List>
-            </Paragraph>
 
             <Heading as="h3" variant="section-title">
               Projects

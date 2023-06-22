@@ -105,7 +105,7 @@ const Project = () => (
         </Paragraph>
       </Box>
 
-      <ProjectImage src="/images/projects/PetPal-Structure.png" alt="Inkdrop" />
+      <ProjectImage src="/images/projects/PetPal-Structure.png" alt="Berra" />
     </Container>
   </Layout>
 )

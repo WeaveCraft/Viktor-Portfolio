@@ -1,14 +1,10 @@
 $PROJECT_ROOT
-│   # Page files & client component files
-├── PetPal-Client
-│   # Backend Model & DTO files
-├── PetPal-Model
-│   # Backend logic files
-├── PetPal-Business
-│   # xUnit testing for backend
-├── PetPal-Tests
-│   # EF Migrations & Database access
-├── PetPal-DataAccess
-│   # Controller and program.cs files
-└── PetPal-Api
+│   # EF migration & database access
+├── Berra.DataAccess
+│   # DTO & models
+├── Berra.Models
+│   # Logic for backend
+├── Berra.Utility
+│   # Client side of application
+└── BerraWebb
 

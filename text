@@ -1,30 +1,12 @@
 $PROJECT_ROOT
-│   # Backend files
-├── Backend
-│   # sh files
-├── scripts
-│   # TDD files
-├── Tests/Backend.Tests
-│   # Frontend files
-├── frontend
-│   # DTO, models, repository and generic context files
-└── DataAccess
+│   # Logic and calculation files
+├── Core
+│   # UI and user experience files
+├── UI
+│   # EF migrations/db context and model files 
+├── DataAccess
+│   # Temperature.csv file and instruction files
+└── Information
 
-$BACKEND_ROOT
-│   # Dashboard controller files
-├── Dashboards
-│   # Quotes controller files
-├── Quotes
-│   # Program.cs
-└── BACKEND_ROOT
 
-$FRONTEND_ROOT/src
-│   # Model files
-├── Models
-│   # Repositoriy files
-├── Repository
-│   # components files
-├── components
-│   # Page files
-└── Pages
 

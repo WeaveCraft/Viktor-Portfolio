@@ -2,11 +2,9 @@ $PROJECT_ROOT
 │   # Logic and calculation files
 ├── Core
 │   # UI and user experience files
-├── UI
-│   # EF migrations/db context and model files 
-├── DataAccess
-│   # Temperature.csv file and instruction files
-└── Information
+├── Prague Parking
+│   # EF migrations/db context and model files and XML config files
+└── DataAccess
 
 
 

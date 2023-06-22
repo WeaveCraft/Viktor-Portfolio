@@ -40,6 +40,10 @@ const Project = () => (
           <Meta>Stack</Meta>
           <span>.NET, ASP.NET, Razor Pages, SQL Server, Entity Framework</span>
         </ListItem>
+        <ListItem>
+          <Meta>Languages</Meta>
+          <span>C#/T-SQL/English</span>
+        </ListItem>
       </List>
       <Divider />
 
@@ -55,7 +59,7 @@ const Project = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" fontSize={20} mb={4} variant="section-title">
-          Solution
+        Ingredients
         </Heading>
         <BioSection>
           <BioYear>Backend</BioYear>

@@ -1,10 +1,30 @@
 $PROJECT_ROOT
-│   # EF migration & database access
-├── Berra.DataAccess
-│   # DTO & models
-├── Berra.Models
-│   # Logic for backend
-├── Berra.Utility
-│   # Client side of application
-└── BerraWebb
+│   # Backend files
+├── Backend
+│   # sh files
+├── scripts
+│   # TDD files
+├── Tests/Backend.Tests
+│   # Frontend files
+├── frontend
+│   # DTO, models, repository and generic context files
+└── DataAccess
+
+$BACKEND_ROOT
+│   # Dashboard controller files
+├── Dashboards
+│   # Quotes controller files
+├── Quotes
+│   # Program.cs
+└── BACKEND_ROOT
+
+$FRONTEND_ROOT/src
+│   # Model files
+├── Models
+│   # Repositoriy files
+├── Repository
+│   # components files
+├── components
+│   # Page files
+└── Pages
 

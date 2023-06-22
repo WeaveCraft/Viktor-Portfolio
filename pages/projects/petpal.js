@@ -38,13 +38,17 @@ const Project = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>.Net, SQL Server, Angular 2</span>
+          <span>.NET/SQL Server/Angular 2</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Languages</Meta>
+          <span>C#/T-SQL/TypeScript/English</span>
         </ListItem>
       </List>
       <Divider />
 
       <Heading as="h3" fontSize={20} mb={4} variant="section-title">
-        Problem
+      Ingredients
       </Heading>
       <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
         <Paragraph>

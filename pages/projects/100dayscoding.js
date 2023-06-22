@@ -23,26 +23,28 @@ const Project = () => (
         100 Days Coding With Python <Badge>2023-</Badge>
       </Title>
       <P>
-        First console application built. Numbers needs to be found inside of a string, hardcoded or not.
+      I set myself a challenge to continuously enhance my backend development skills by dedicating time every day to coding. 
+      This involved either creating new smaller applications or expanding upon existing ones, ensuring a consistent learning and growth process. 
+      By actively engaging in this challenge, I aimed to solidify my knowledge and expertise in backend development.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Repository</Meta>
-          <Link href="https://github.com/WeaveCraft/Find-number-in-string">
+          <Link href="https://github.com/WeaveCraft/100DaysCodingPython">
             Link <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows</span>
+          <span>Windows/Linux/MacOS</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>.NET/Console Application</span>
+          <span>Django</span>
         </ListItem>
         <ListItem>
           <Meta>Languages</Meta>
-          <span>C#/English</span>
+          <span>Python/English</span>
         </ListItem>
       </List>
       <Divider />
@@ -52,9 +54,10 @@ const Project = () => (
       </Heading>
       <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
         <Paragraph>
-          Create a console application that takes a string as an argument or reads it from the console input.
-          The application will search through the input string and identify all the substrings that represent numbers starting and ending with the same digit,
-          without any other non-digit characters in between. For example, "3463" is a valid substring meeting the criteria, but "34363" is not because it has an additional occurrence of the digit 3.
+        I am eager to expand my development skills and explore new tools. As part of my learning journey, 
+        I have decided to create small applications that mimic everyday objects or systems in my surroundings. 
+        This includes objects like a coffee machine or systems like a parking system. The primary objective behind this initiative is to consistently write code, broaden my experience, and foster continuous learning. By tackling these mini projects, 
+        I aim to gain practical hands-on experience, explore different technologies, and further enhance my development capabilities.
         </Paragraph>
       </Box>
 
@@ -64,11 +67,11 @@ const Project = () => (
         </Heading>
         <BioSection>
           <BioYear>Backend</BioYear>
-          Build with .NET Core.
+          PyCharm as IDE.
         </BioSection>
         <BioSection>
           <BioYear>Backend</BioYear>
-          Makse use of Substring.
+          Implement Django atleast once.
         </BioSection>
         <Divider my={4} />
         <BioSection>
@@ -82,14 +85,12 @@ const Project = () => (
       </Heading>
       <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
         <Paragraph>
-          The result of this application is a console output that displays the original input string with the valid number substrings highlighted in a different color.
-          Additionally, the application would calculate the sum of these valid number substrings and display the total.
-          The marked substrings would be highlighted to indicate that they meet the criteria of starting and ending with the same digit, with no other non-digit characters in between.
-          After displaying the marked substrings. <br />
-          This application served as a valuable introduction to .NET and C# programming.
+        By dedicating time and effort to these small application projects, I have already observed a significant increase in my expertise in backend development.
+           The continuous practice has strengthened my problem-solving skills, improved my understanding of coding best practices, and enhanced my ability to tackle real-world development challenges. 
+           As a result, I feel more confident and proficient in backend development, paving the way for further growth and exploration in this field.
         </Paragraph>
       </Box>
-      <ProjectImage src="/images/projects/FindNumberInStringApp.png" alt="Berra" />
+      <ProjectImage src="/images/projects/100DaysCoding.png" alt="Berra" />
     </Container>
   </Layout>
 )

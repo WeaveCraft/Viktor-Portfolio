@@ -52,7 +52,7 @@ const CssTech = () => {
         projects={[
           {
             description: 'PetPal',
-            githubLink: '/projects/project1',
+            githubLink: 'https://github.com/WeaveCraft/PetPal',
           },
           {
             description: 'BerrasCinema',
@@ -60,23 +60,23 @@ const CssTech = () => {
           },
           {
             description: 'HamsterWar',
-            githubLink: '/projects/project2',
+            githubLink: 'https://github.com/WeaveCraft/HamsterWar',
           },
           {
             description: 'Simple-Calculator',
-            githubLink: '/projects/project2',
+            githubLink: 'https://github.com/WeaveCraft/Simple-Calculator',
           },
           {
             description: 'xUnit_YlvasKaffeLager',
-            githubLink: '/projects/project2',
+            githubLink: 'https://github.com/WeaveCraft/xUnit_YlvasKaffeLager',
           },
           {
             description: 'WinForms_WeatherDB',
-            githubLink: '/projects/project2',
+            githubLink: 'https://github.com/WeaveCraft/WinForms_WeatherDB',
           },
           {
             description: 'Prague_Parking2.0',
-            githubLink: '/projects/project2',
+            githubLink: 'https://github.com/WeaveCraft/Prague_Parking2.0',
           },
           {
             description: 'MiFamilia',

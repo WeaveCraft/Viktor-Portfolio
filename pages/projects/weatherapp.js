@@ -34,15 +34,19 @@ const Project = () => (
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows</span>
+          <span>Windows/Linux</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>.NET/SQL Server/Entity Framework</span>
+          <span>.NET/WinForms/SQL Server/Entity Framework</span>
         </ListItem>
         <ListItem>
           <Meta>Languages</Meta>
-          <span>C#/T-SQL/English/Swedish(UI)/English(Code)</span>
+          <span>C#/T-SQL/Swedish(UI)/English(Code)</span>
+        </ListItem>
+        <ListItem>
+          <Meta>IDE</Meta>
+          <span>Visual Studio 2019</span>
         </ListItem>
       </List>
       <Divider />
@@ -72,11 +76,15 @@ const Project = () => (
         </BioSection>
         <BioSection>
           <BioYear>Backend</BioYear>
-          Read from .csv file use StreamReader.
+          Entity Framework Core as an ORM tool.
         </BioSection>
         <BioSection>
           <BioYear>Backend</BioYear>
-          Entity Framework Core as an ORM tool.
+          XML to serialize/deserialize data.
+        </BioSection>
+        <BioSection>
+          <BioYear>Backend</BioYear>
+          Read from .csv file using StreamReader.
         </BioSection>
         <Divider my={4} />
         <BioSection>

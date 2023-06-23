@@ -12,7 +12,7 @@ const Page = () => {
         <Layout>
         <Container>
             <Box borderRadius="lg" bg="orange.500" p={3} mb={6} align="center">
-                Hello, I&apos;m a full-stack developer based in Sweden!
+                Hello, I&apos;m a full-stack developer based in Södermanland!
             </Box>
 
             <Box display={{ md: 'flex' }}>
@@ -120,18 +120,8 @@ const Page = () => {
                     What I ♥
                 </Heading>
                 <Paragraph>
-                    </Paragraph>
-                <Box align="center" my={4}>
-                    <Button
-                        as={NextLink}
-                        href="/techs"
-                        scroll={false}
-                        rightIcon={<ChevronRightIcon />}
-                        colorScheme="orange"
-                    >
-                        See My Current Tech Skills
-                    </Button>
-                </Box>
+                Workout, Traveling, Coding, Friends/Family, Outdoors, Baking
+            </Paragraph>
                 </Section>
                 <Heading as="h3" variant="section-title">
           Where To Find Me

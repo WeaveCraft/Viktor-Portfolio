@@ -46,6 +46,10 @@ const Project = () => (
           <Meta>Languages</Meta>
           <span>Python/English</span>
         </ListItem>
+        <ListItem>
+          <Meta>IDE</Meta>
+          <span>PyCharm</span>
+        </ListItem>
       </List>
       <Divider />
 

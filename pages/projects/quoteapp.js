@@ -48,6 +48,10 @@ const Project = () => (
           <Meta>DevOps</Meta>
           <span>Gitwell/Docker/Devcontainer</span>
         </ListItem>
+        <ListItem>
+          <Meta>IDE</Meta>
+          <span>Visual Studio 2022/VS Code</span>
+        </ListItem>
       </List>
       <Divider />
 

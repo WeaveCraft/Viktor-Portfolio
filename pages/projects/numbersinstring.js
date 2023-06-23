@@ -44,6 +44,10 @@ const Project = () => (
           <Meta>Languages</Meta>
           <span>C#/English</span>
         </ListItem>
+        <ListItem>
+          <Meta>IDE</Meta>
+          <span>Visual Studio 2019</span>
+        </ListItem>
       </List>
       <Divider />
 

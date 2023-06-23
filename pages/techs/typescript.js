@@ -5,7 +5,7 @@ import TechSection from '../../components/techSection';
 
 const TypescriptTech = () => {
   return (
-    <Layout id="typescript">
+    <Layout title="TypeScript">
       <TechSection
         title="TYPESCRIPT"
         color="#2B6CB0"

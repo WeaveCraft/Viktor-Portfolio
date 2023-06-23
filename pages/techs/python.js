@@ -4,7 +4,7 @@ import TechSection from '../../components/techSection';
 
 const PythonTech = () => {
   return (
-    <Layout id="python">
+    <Layout title="Python">
       <TechSection
         title="PYTHON"
         color="#27567C"

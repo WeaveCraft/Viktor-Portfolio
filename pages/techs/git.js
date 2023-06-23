@@ -5,7 +5,7 @@ import TechSection from '../../components/techSection';
 
 const GitTech = () => {
   return (
-    <Layout id="git">
+    <Layout title="Git">
       <TechSection
         title="GIT"
         color="#F56565"

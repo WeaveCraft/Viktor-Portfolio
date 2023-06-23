@@ -5,7 +5,7 @@ import TechSection from '../../components/techSection';
 
 const CssTech = () => {
   return (
-    <Layout id="css">
+    <Layout title="CSS">
       <TechSection
         title="CSS"
         color="#553C9A"

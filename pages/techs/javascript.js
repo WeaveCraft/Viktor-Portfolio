@@ -4,7 +4,7 @@ import TechSection from '../../components/techSection';
 
 const JavascriptTech = () => {
     return (
-        <Layout id="javascript">
+        <Layout title="JavaScript">
             <TechSection
                 title="JAVASCRIPT"
                 color="#ECC94B"

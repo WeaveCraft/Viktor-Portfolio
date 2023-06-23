@@ -5,7 +5,7 @@ import TechSection from '../../components/techSection';
 
 const CSharpTech = () => {
   return (
-    <Layout id="csharp">
+    <Layout title="CSharp">
       <TechSection
         title="CSHARP"
         color="#2F855A"

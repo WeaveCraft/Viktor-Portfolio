@@ -5,7 +5,7 @@ import TechSection from '../../components/techSection';
 
 const AzureTech = () => {
   return (
-    <Layout id="azure">
+    <Layout title="Azure">
       <TechSection
         title="Azure"
         color="#2B6CB0"

@@ -63,7 +63,7 @@ const Navbar = props => {
         align="center"
         justify="space-between"
       >
-        <Flex align="center" mr={5}>
+        <Flex align="center" mr={20}>
           <Heading as="h1" size="lg" letterSpacing={'tighter'}>
             <Logo />
           </Heading>
@@ -90,11 +90,6 @@ const Navbar = props => {
             path={path}>
             Work Experiences
           </LinkItem>
-          <LinkItem
-            href="/scenes"
-            path={path}>
-            Behind The Scenes
-          </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
@@ -117,12 +112,6 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
                   Work Experiences
-                </MenuItem>
-                <MenuItem
-                  as={MenuLink}
-                  href="scenes"
-                >
-                  Behind The Scenes
                 </MenuItem>
               </MenuList>
             </Menu>

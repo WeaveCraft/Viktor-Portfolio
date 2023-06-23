@@ -5,7 +5,7 @@ import TechSection from '../../components/techSection';
 
 const PostgreSqlTech = () => {
   return (
-    <Layout id="postgresql">
+    <Layout title="PostgreSql">
       <TechSection
         title="POSTGRESQL"
         color="#3182CE"

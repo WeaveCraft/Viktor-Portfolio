@@ -5,7 +5,7 @@ import TechSection from '../../components/techSection';
 
 const MongoDbTech = () => {
   return (
-    <Layout id="mongodb">
+    <Layout title="MongoDb">
       <TechSection
         title="MONGODB"
         color="#2F855A"

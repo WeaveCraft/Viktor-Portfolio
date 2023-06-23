@@ -4,7 +4,7 @@ import TechSection from '../../components/techSection';
 
 const DockerTech = () => {
   return (
-    <Layout id="csharp">
+    <Layout title="Docker">
       <TechSection
         title="DOCKER"
         color="#4299E1"

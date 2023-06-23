@@ -1,7 +1,6 @@
 import { Container, Heading, SimpleGrid, ListItem, List } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/styles/section'
-import { Box } from '@chakra-ui/layout'
 import Paragraph from '../components/styles/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { Divider } from '@chakra-ui/react'

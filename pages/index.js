@@ -21,6 +21,7 @@ const Page = () => {
                         Viktor Hurtig
                     </Heading>
                     <p>Software Developer ( Frontend / Backend  )</p>
+                    <p style={{ color: 'orange', fontFamily: 'cursive' }}>viktor.hurtig@outlook.com</p>
                 </Box>
                 <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center">
                     <Image borderColor="orange.500" borderWidth={3} borderRadius="full" borderStyle="solid" maxWidth="8rem" display="inline-block" src="/images/viktor.png" alt="Profile Picture" />

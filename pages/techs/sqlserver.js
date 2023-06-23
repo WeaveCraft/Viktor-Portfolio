@@ -5,7 +5,7 @@ import TechSection from '../../components/techSection';
 
 const SqlServerTech = () => {
   return (
-    <Layout id="sqlserver">
+    <Layout title="SqlServer">
       <TechSection
         title="SQLSERVER"
         color="#4299E1"

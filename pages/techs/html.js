@@ -5,7 +5,7 @@ import TechSection from '../../components/techSection';
 
 const HtmlTech = () => {
   return (
-    <Layout id="html">
+    <Layout title="HTML">
       <TechSection
         title="HTML"
         color="#ED8936"

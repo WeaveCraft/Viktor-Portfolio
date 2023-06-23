@@ -167,7 +167,6 @@ const Page = () => {
             </Link>
           </ListItem>
         </List>
-
             </Section>
             </Section>
         </Container>

@@ -91,11 +91,10 @@ const Navbar = props => {
             Work Experiences
           </LinkItem>
           <LinkItem
-            href="/studies"
+            href="/scenes"
             path={path}>
-            Study Experiences
+            Behind The Scenes
           </LinkItem>
-          
         </Stack>
 
         <Box flex={1} align="right">
@@ -120,10 +119,10 @@ const Navbar = props => {
                   Work Experiences
                 </MenuItem>
                 <MenuItem
-                  as={Link}
-                  href="https://github.com/WeaveCraft/Viktor-Portfolio"
+                  as={MenuLink}
+                  href="scenes"
                 >
-                  My Github
+                  Behind The Scenes
                 </MenuItem>
               </MenuList>
             </Menu>

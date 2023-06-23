@@ -12,7 +12,7 @@ const VoxelRoom = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlRoomGLB = (process.env.NODE_ENV === 'production' ? 'https://craftzdog.global.ssl.fastly.net/homepage' : '') + '/myRoom.glb'
+  const urlRoomGLB = (process.env.NODE_ENV === 'production' ? '/myRoom.glb' : '') + '/myRoom.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer

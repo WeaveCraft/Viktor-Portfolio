@@ -102,8 +102,8 @@ const Project = () => (
         </Heading>
         <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
           <Paragraph>
-            The application automatically creates the necessary database if it doesn't already exist. It utilizes Entity Framework and follows the Code First approach for database creation. <br />
-            The application reads data from the "TempFuktData.csv" file and populates the database with the relevant temperature and humidity data. <br />
+            The application automatically creates the necessary database if it doesn&apos;t already exist. It utilizes Entity Framework and follows the Code First approach for database creation. <br />
+            The application reads data from the &ldquo;TempFuktData.csv&ldquo; file and populates the database with the relevant temperature and humidity data. <br />
             Users can view outdoor and indoor temperature and humidity data based on selected dates. They can also sort the data based on different criteria, such as the warmest to coldest day, driest to most humid day, or least to highest risk for mold. <br />
             The application calculates and presents aggregated data, such as average temperature and humidity per day, enabling users to analyze trends and patterns.
           </Paragraph>

@@ -1,5 +1,4 @@
-import { SiTypescript, SiUdemy, SiYoutube } from 'react-icons/si';
-import { IoIosSchool } from 'react-icons/io';
+import { SiTypescript, SiUdemy } from 'react-icons/si';
 import Layout from '../../components/layouts/article';
 import TechSection from '../../components/techSection';
 

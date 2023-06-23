@@ -60,7 +60,7 @@ const Project = () => (
           <Paragraph>
             Create a console application that takes a string as an argument or reads it from the console input.
             The application will search through the input string and identify all the substrings that represent numbers starting and ending with the same digit,
-            without any other non-digit characters in between. For example, "3463" is a valid substring meeting the criteria, but "34363" is not because it has an additional occurrence of the digit 3.
+            without any other non-digit characters in between. For example, &ldquo;3463&ldquo; is a valid substring meeting the criteria, but &ldquo;34363&ldquo; is not because it has an additional occurrence of the digit 3.
           </Paragraph>
         </Box>
       </Section>

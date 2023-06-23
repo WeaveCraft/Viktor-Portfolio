@@ -73,7 +73,7 @@ const Project = () => (
         <Section delay={0.5}>
           <WorkGridItem id="weatherapp" title="WeatherApp" thumbnail={weatherImg}>
             A WinForms application is designed to read data from a .csv file, which has been collected from a weather data collector.
-            The application will filter out any corrupt or unreliable data from the .csv file, providing a refined and "clean" dataset as the output.
+            The application will filter out any corrupt or unreliable data from the .csv file, providing a refined and &ldquo;clean&ldquo; dataset as the output.
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>

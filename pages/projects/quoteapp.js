@@ -116,7 +116,7 @@ const Project = () => (
         <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
           <Paragraph>
             Working collaboratively with a coworker and a customer in an agile environment allowed us to adopt a sprint-based approach and develop the QuoteApp.
-            Through weekly meetings and effective communication, we were able to understand and fulfill the customer's requirements.
+            Through weekly meetings and effective communication, we were able to understand and fulfill the customer&apos;s requirements.
             During the development process, we embraced new technologies like Devcontainer, React, and Docker. While these tools presented some challenges,
             they also provided exciting opportunities for growth. As a result, my proficiency in developing applications using React and .NET has significantly improved, and I now feel more confident in my abilities.
           </Paragraph>

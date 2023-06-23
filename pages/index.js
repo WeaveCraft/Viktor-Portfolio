@@ -34,8 +34,9 @@ const Page = () => {
                 </Heading>
                 <Paragraph>I am an enthusiastic full-stack developer specializing in .Net technologies. With a primary focus on backend development, I am passionate about creating innovative digital solutions and continuously expanding my knowledge.
                     I thoroughly enjoy using coding to address real-life problems and take immense pleasure in planning and building digital solutions from the ground up.
-                    When I'm not immersed in the world of programming, I find solace in nature and indulge in travel adventures.
-                    Exploring the outdoors rejuvenates my spirit and provides inspiration for my work. In my quest to enhance my skill set as a full-stack developer, I am currently engaged in personal projects that serve as a testament to my ongoing learning and growth.
+                    When I&apos;m not immersed in the world of programming, I find solace in nature and indulge in travel adventures.
+                    Exploring the outdoors rejuvenates my spirit and provides inspiration for my work. In my quest to enhance my skill set as a full-stack developer, 
+                    I am currently engaged in personal projects that serve as a testament to my ongoing learning and growth.
                     You can explore these repositories on my {' '}
                     <Link as={NextLink} href="/projects" passHref scroll={false}>
                         projects page

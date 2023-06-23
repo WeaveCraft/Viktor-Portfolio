@@ -58,7 +58,7 @@ const Project = () => (
         </Heading>
         <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
           <Paragraph>
-            A new parking system is required for an indoor parking house in Prague. The system's primary purpose is to efficiently monitor the number of vehicles parked inside the facility, including motorcycles, cars, and others.
+            A new parking system is required for an indoor parking house in Prague. The system&apos;s primary purpose is to efficiently monitor the number of vehicles parked inside the facility, including motorcycles, cars, and others.
             Additionally, the system needs to determine the price for each vehicle based on its size and provide an accurate payment calculation when the vehicle is ready to leave.
           </Paragraph>
         </Box>

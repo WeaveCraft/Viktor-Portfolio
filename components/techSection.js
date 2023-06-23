@@ -1,4 +1,4 @@
-import { Container, Box, Heading, Link, Button, List, ListItem, Text, Flex } from '@chakra-ui/react';
+import { Container, Box, Heading, Link, Button, List, ListItem } from '@chakra-ui/react';
 import { ChevronLeftIcon } from '@chakra-ui/icons';
 import Section from './styles/section';
 import Paragraph from './styles/paragraph';
@@ -16,7 +16,7 @@ const TechSection = ({ title, color, icon, backButtonHref, proficiencyLevel, pro
         <span style={{ color: '#3B6A96' }}>WHERE</span>
         <span style={{ color: 'white' }}> Repo</span>
         <span style={{ color: '#3B6A96' }}> CONTAINS</span>
-        <span style={{ color: 'white' }}> '{title}'</span>
+        <span style={{ color: 'white' }}> &apos;{title}&apos;</span>
       </Box>
       <Section delay={0.2}>
         <Box flexGrow={1} align="center">

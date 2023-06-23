@@ -1,4 +1,4 @@
-import { SiHtml5, SiUdemy, SiYoutube } from 'react-icons/si';
+import { SiHtml5, SiUdemy } from 'react-icons/si';
 import { IoIosSchool } from 'react-icons/io';
 import Layout from '../../components/layouts/article';
 import TechSection from '../../components/techSection';

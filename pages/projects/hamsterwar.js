@@ -59,10 +59,10 @@ const Project = () => (
         <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
           <Paragraph>
             During the challenging times of the pandemic, there was sign of need for some stress relief and entertainment have been increased.
-            The application allows users to login and participate in a fun "battle" where two random hamsters are presented on the screen.
-            The user's task is to choose the hamster they find the cutest by simply clicking on it.
+            The application allows users to login and participate in a fun &ldquo;battle&ldquo; where two random hamsters are presented on the screen.
+            The user&quot;s task is to choose the hamster they find the cutest by simply clicking on it.
             <br />
-            The application features a dynamic scoreboard that keeps track of the hamsters' cuteness rankings.
+            The application features a dynamic scoreboard that keeps track of the hamsters&quot; cuteness rankings.
             Users can view the ongoing competition and see which hamsters are currently leading the cuteness race and which ones have received fewer votes.
           </Paragraph>
         </Box>

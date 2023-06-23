@@ -1,5 +1,4 @@
-import { SiPostgresql, SiUdemy, SiYoutube } from 'react-icons/si';
-import { IoIosSchool } from 'react-icons/io';
+import { SiPostgresql } from 'react-icons/si';
 import Layout from '../../components/layouts/article';
 import TechSection from '../../components/techSection';
 

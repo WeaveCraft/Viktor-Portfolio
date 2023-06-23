@@ -1,4 +1,4 @@
-import { SiMongodb, SiUdemy } from 'react-icons/si';
+import { SiMongodb } from 'react-icons/si';
 import { IoIosSchool } from 'react-icons/io';
 import Layout from '../../components/layouts/article';
 import TechSection from '../../components/techSection';

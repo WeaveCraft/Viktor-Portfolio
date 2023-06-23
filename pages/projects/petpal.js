@@ -112,7 +112,7 @@ const Project = () => (
           <Paragraph>
             The combined result of the backend and frontend implementation made it to be a functional meeting web app for dog owners.
             This app allows dog owners to connect, share information, and organize meetings or events related to their dogs.
-            Users would be able to create profiles, search for other dog owners, chat and like other users, and interact with the community of dog owners through the app's user interface.
+            Users would be able to create profiles, search for other dog owners, chat and like other users, and interact with the community of dog owners through the app&quot;s user interface.
           </Paragraph>
         </Box>
       </Section>

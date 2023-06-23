@@ -19,51 +19,54 @@ import Section from '../../components/styles/section'
 const Project = () => (
   <Layout title="BerrasBio">
     <Container>
-      <Title>
-        BerrasBio <Badge>2022-</Badge>
-      </Title>
-      <P>
-        A movie booking ticket using microsofts authentication with Razor Pages.
-      </P>
-      <List ml={4} my={4}>
-        <ListItem>
-          <Meta>Repository</Meta>
-          <Link href="https://github.com/WeaveCraft/BerraCinema">
-            Link <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Stack</Meta>
-          <span>.NET, ASP.NET, Razor Pages, SQL Server, Entity Framework</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Languages</Meta>
-          <span>C#/T-SQL/English</span>
-        </ListItem>
-        <ListItem>
-          <Meta>IDE</Meta>
-          <span>Visual Studio 2019</span>
-        </ListItem>
-      </List>
-      <Divider />
-
-      <Heading as="h3" fontSize={20} mb={4} variant="section-title">
-        Problem
-      </Heading>
-      <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
-        <Paragraph>
-        A cinema is undergoing a rebranding process and requires a new web application to facilitate online movie ticket bookings for users. 
-        Additionally, the company intends to provide administrators with the ability to create accounts and perform CRUD operations for managing active movies.
-        </Paragraph>
-      </Box>
-
       <Section delay={0.2}>
+        <Title>
+          BerrasBio <Badge>2022-</Badge>
+        </Title>
+        <P>
+          A movie booking ticket using microsofts authentication with Razor Pages.
+        </P>
+        <List ml={4} my={4}>
+          <ListItem>
+            <Meta>Repository</Meta>
+            <Link href="https://github.com/WeaveCraft/BerraCinema">
+              Link <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Platform</Meta>
+            <span>Windows/macOS/Linux/iOS</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Stack</Meta>
+            <span>.NET, ASP.NET, Razor Pages, SQL Server, Entity Framework</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Languages</Meta>
+            <span>C#/T-SQL/English</span>
+          </ListItem>
+          <ListItem>
+            <Meta>IDE</Meta>
+            <span>Visual Studio 2019</span>
+          </ListItem>
+        </List>
+        <Divider />
+      </Section>
+      <Section delay={0.3}>
         <Heading as="h3" fontSize={20} mb={4} variant="section-title">
-        Ingredients
+          Problem
+        </Heading>
+        <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
+          <Paragraph>
+            A cinema is undergoing a rebranding process and requires a new web application to facilitate online movie ticket bookings for users.
+            Additionally, the company intends to provide administrators with the ability to create accounts and perform CRUD operations for managing active movies.
+          </Paragraph>
+        </Box>
+      </Section>
+
+      <Section delay={0.4}>
+        <Heading as="h3" fontSize={20} mb={4} variant="section-title">
+          Ingredients
         </Heading>
         <BioSection>
           <BioYear>Backend</BioYear>
@@ -100,18 +103,18 @@ const Project = () => (
         </BioSection>
       </Section>
 
-
-      <Heading as="h3" fontSize={20} mb={4} variant="section-title">
-        Result
-      </Heading>
-      <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
-        <Paragraph>
-        Overall, the result is a robust and user-centric web application that caters to both customers and cinema administrators. 
-        It simplifies the movie ticket booking process, improves operational efficiency for the cinema, and enhances the overall movie-going experience for users.
-        </Paragraph>
-      </Box>
-
-      <ProjectImage src="/images/projects/Berra-Structure.png" alt="Berra" />
+      <Section delay={0.5}>
+        <Heading as="h3" fontSize={20} mb={4} variant="section-title">
+          Result
+        </Heading>
+        <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
+          <Paragraph>
+            Overall, the result is a robust and user-centric web application that caters to both customers and cinema administrators.
+            It simplifies the movie ticket booking process, improves operational efficiency for the cinema, and enhances the overall movie-going experience for users.
+          </Paragraph>
+        </Box>
+        <ProjectImage src="/images/projects/Berra-Structure.png" alt="Berra" />
+      </Section>
     </Container>
   </Layout>
 )

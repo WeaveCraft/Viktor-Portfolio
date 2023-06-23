@@ -106,7 +106,7 @@ const Page = () => {
             <Box align="center" my={4}>
                     <Button
                         as={NextLink}
-                        href="/experiences"
+                        href="/works"
                         scroll={false}
                         rightIcon={<ChevronRightIcon />}
                         colorScheme="orange"
@@ -117,10 +117,16 @@ const Page = () => {
 
                 <Section delay={0.5}>
                 <Heading as="h3" variant="section-title">
-                    What I ♥
+                    Nerd ♥
                 </Heading>
                 <Paragraph>
-                Workout, Traveling, Coding, Friends/Family, Outdoors, Baking
+                Coding, UX/UI Design, Voxel Art, Video Games, Personal Projects
+            </Paragraph>
+                <Heading as="h3" variant="section-title">
+                I Also ♥
+                </Heading>
+                <Paragraph>
+                Workout, Traveling, Friends/Family, Outdoors, Baking
             </Paragraph>
                 </Section>
                 <Heading as="h3" variant="section-title">

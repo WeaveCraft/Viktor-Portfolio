@@ -19,52 +19,55 @@ import Section from '../../components/styles/section'
 const Project = () => (
   <Layout title="PetPal">
     <Container>
-      <Title>
-        PetPal <Badge>2023-</Badge>
-      </Title>
-      <P>
-        A meetup application for dog and dog owners to chat, like and share interests.
-      </P>
-      <List ml={4} my={4}>
-        <ListItem>
-          <Meta>Repository</Meta>
-          <Link href="https://github.com/WeaveCraft/PetPal">
-            Link <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Stack</Meta>
-          <span>.NET/SQL Server/Angular 2</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Languages</Meta>
-          <span>C#/T-SQL/TypeScript/English</span>
-        </ListItem>
-        <ListItem>
-          <Meta>IDE</Meta>
-          <span>Visual Studio 2022/VS Code</span>
-        </ListItem>
-      </List>
-      <Divider />
-
-      <Heading as="h3" fontSize={20} mb={4} variant="section-title">
-      Ingredients
-      </Heading>
-      <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
-        <Paragraph>
-          Recently, there has been an increase in the number of dog owners, highlighting the growing need for a platform that facilitates networking and collaboration among them.
-          Recognizing this need, I have realized the importance of creating a space where dog owners can connect, share their experiences, and support one another.
-          By fostering a community-driven environment, I aim to promote knowledge sharing, friendship formation, and ultimately improve the well-being of both dogs and their owners.
-        </Paragraph>
-      </Box>
-
       <Section delay={0.2}>
+        <Title>
+          PetPal <Badge>2023-</Badge>
+        </Title>
+        <P>
+          A meetup application for dog and dog owners to chat, like and share interests.
+        </P>
+        <List ml={4} my={4}>
+          <ListItem>
+            <Meta>Repository</Meta>
+            <Link href="https://github.com/WeaveCraft/PetPal">
+              Link <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Platform</Meta>
+            <span>Windows/macOS/Linux</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Stack</Meta>
+            <span>.NET/SQL Server/Angular 2</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Languages</Meta>
+            <span>C#/T-SQL/TypeScript/English</span>
+          </ListItem>
+          <ListItem>
+            <Meta>IDE</Meta>
+            <span>Visual Studio 2022/VS Code</span>
+          </ListItem>
+        </List>
+        <Divider />
+      </Section>
+      <Section delay={0.3}>
         <Heading as="h3" fontSize={20} mb={4} variant="section-title">
-          Solution
+          Problem
+        </Heading>
+        <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
+          <Paragraph>
+            Recently, there has been an increase in the number of dog owners, highlighting the growing need for a platform that facilitates networking and collaboration among them.
+            Recognizing this need, I have realized the importance of creating a space where dog owners can connect, share their experiences, and support one another.
+            By fostering a community-driven environment, I aim to promote knowledge sharing, friendship formation, and ultimately improve the well-being of both dogs and their owners.
+          </Paragraph>
+        </Box>
+      </Section>
+
+      <Section delay={0.4}>
+        <Heading as="h3" fontSize={20} mb={4} variant="section-title">
+          Ingredients
         </Heading>
         <BioSection>
           <BioYear>Backend</BioYear>
@@ -101,18 +104,18 @@ const Project = () => (
         </BioSection>
       </Section>
 
-
-      <Heading as="h3" fontSize={20} mb={4} variant="section-title">
-        Result
-      </Heading>
-      <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
-        <Paragraph>
-        The combined result of the backend and frontend implementation made it to be a functional meeting web app for dog owners.
-         This app allows dog owners to connect, share information, and organize meetings or events related to their dogs. 
-         Users would be able to create profiles, search for other dog owners, chat and like other users, and interact with the community of dog owners through the app's user interface.
-        </Paragraph>
-      </Box>
-
+      <Section delay={0.5}>
+        <Heading as="h3" fontSize={20} mb={4} variant="section-title">
+          Result
+        </Heading>
+        <Box borderRadius="lg" bg="#363636" p={4} mb={8} color="white">
+          <Paragraph>
+            The combined result of the backend and frontend implementation made it to be a functional meeting web app for dog owners.
+            This app allows dog owners to connect, share information, and organize meetings or events related to their dogs.
+            Users would be able to create profiles, search for other dog owners, chat and like other users, and interact with the community of dog owners through the app's user interface.
+          </Paragraph>
+        </Box>
+      </Section>
       <ProjectImage src="/images/projects/PetPal-Structure.png" alt="Berra" />
     </Container>
   </Layout>

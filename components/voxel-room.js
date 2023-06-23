@@ -49,7 +49,7 @@ const VoxelRoom = () => {
         10 * Math.cos(0.2 * Math.PI)
       );
 
-      const scale = scH * 0.005 + 4.8
+      const scale = scH * 0.002 + 4.8
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,

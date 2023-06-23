@@ -46,7 +46,7 @@ import {
         setTouched({});
         setState(initState);
         toast({
-          title: "Message sent.",
+          title: "Message Sent.",
           status: "success",
           duration: 2000,
           position: "top",

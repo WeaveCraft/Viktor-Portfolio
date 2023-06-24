@@ -58,11 +58,11 @@ const Work = () => (
 
             <Divider />
 
+            <Section delay={0.4}>
             <Heading as="h4" fontSize={30} mb={1} variant="page-title">
                 Software Development
             </Heading>
 
-            <Section delay={0.4}>
                 <SimpleGrid gap={6}>
                     <List>
                         <ListItem>

@@ -77,11 +77,13 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/projects"
+          <LinkItem
+            href="/projects"
             path={path}>
             My Projects
           </LinkItem>
-          <LinkItem href="/techs"
+          <LinkItem
+            href="/techs"
             path={path}>
             Tech Experiences
           </LinkItem>
@@ -92,7 +94,7 @@ const Navbar = props => {
           </LinkItem>
         </Stack>
 
-        <Box flex={1} align="right">
+        <Box flex={1} align="left">
           <DarkModeToggle />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>

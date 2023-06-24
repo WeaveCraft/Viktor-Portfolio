@@ -4,7 +4,7 @@ import Section from '../components/styles/section'
 import { Box } from '@chakra-ui/layout'
 import { SiCsharp, SiTypescript, SiJavascript, SiPython, SiCss3, SiHtml5, SiDocker, SiGit, SiMicrosoftazure, SiPostgresql, SiMicrosoftsqlserver, SiMongodb } from 'react-icons/si'
 import Paragraph from '../components/styles/paragraph'
-import TechnologySection from '../components/styles/technology'
+import TechSquare from '../components/styles/technology'
 
 const Tech = () => (
   <Layout title="Techs">
@@ -25,7 +25,7 @@ const Tech = () => (
                   Backend Experiences
                 </Heading>
                 <Section>
-                  <TechnologySection
+                  <TechSquare
                     id="csharp"
                     title="Csharp"
                     bgColor="green.400"
@@ -34,7 +34,7 @@ const Tech = () => (
                     hoverColor="green.600"
                     language="CSHARP"
                   />
-                  <TechnologySection
+                  <TechSquare
                     id="python"
                     title="Python"
                     bgColor="#306998"
@@ -47,7 +47,7 @@ const Tech = () => (
                 <Heading as="h3" fontSize={17.5} mb={6} variant="section-title">
                   Frontend Experiences
                 </Heading>
-                <TechnologySection
+                <TechSquare
                   id="typescript"
                   bgColor="blue.400"
                   icon={SiTypescript}
@@ -55,7 +55,7 @@ const Tech = () => (
                   hoverColor="blue.600"
                   language="TYPESCRIPT"
                 />
-                <TechnologySection
+                <TechSquare
                   id="javascript"
                   bgColor="yellow.300"
                   icon={SiJavascript}
@@ -63,7 +63,7 @@ const Tech = () => (
                   hoverColor="yellow.400"
                   language="JAVASCRIPT"
                 />
-                <TechnologySection
+                <TechSquare
                   id="css"
                   bgColor="purple.700"
                   icon={SiCss3}
@@ -71,7 +71,7 @@ const Tech = () => (
                   hoverColor="purple.800"
                   language="CSS3"
                 />
-                <TechnologySection
+                <TechSquare
                   id="html"
                   bgColor="orange.400"
                   icon={SiHtml5}
@@ -81,21 +81,21 @@ const Tech = () => (
                 <Heading as="h3" fontSize={17.5} mb={6} variant="section-title">
                   DevOps And Version Control
                 </Heading>
-                <TechnologySection
+                <TechSquare
                   id="docker"
                   bgColor="blue.400"
                   icon={SiDocker}
                   hoverColor="blue.600"
                   language="DOCKER"
                 />
-                <TechnologySection
+                <TechSquare
                   id="azure"
                   bgColor="blue.500"
                   icon={SiMicrosoftazure}
                   hoverColor="blue.600"
                   language="AZURE"
                 />
-                <TechnologySection
+                <TechSquare
                   id="git"
                   bgColor="red.300"
                   icon={SiGit}
@@ -105,21 +105,21 @@ const Tech = () => (
                 <Heading as="h3" fontSize={17.5} mb={6} variant="section-title">
                   Databases
                 </Heading>
-                <TechnologySection
+                <TechSquare
                   id="sqlserver"
                   bgColor="blue.400"
                   icon={SiMicrosoftsqlserver}
                   hoverColor="blue.600"
                   language="SQLSERVER"
                 />
-                <TechnologySection
+                <TechSquare
                   id="postgresql"
                   bgColor="blue.500"
                   icon={SiPostgresql}
                   hoverColor="blue.600"
                   language="POSTGRESQL"
                 />
-                <TechnologySection
+                <TechSquare
                   id="mongodb"
                   bgColor="green.500"
                   icon={SiMongodb}

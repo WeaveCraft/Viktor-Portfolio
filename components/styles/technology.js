@@ -36,7 +36,7 @@ const FrameworkText = styled('div')`
 padding: 0.5rem;
 `
 
-const TechnologySection = ({
+const TechSquare = ({
   bgColor,
   icon,
   frameworks,
@@ -77,4 +77,4 @@ const TechnologySection = ({
   </LinkBox>
 );
 
-export default TechnologySection;
+export default TechSquare;

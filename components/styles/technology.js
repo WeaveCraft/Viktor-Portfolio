@@ -17,7 +17,7 @@ const Line = styled(Box)`
 const Bar = styled(Box)`
   position: absolute;
   top: 0;
-  right: -2.5rem;
+  right: -8.5rem;
   height: 100%;
   width: 2px;
   background: darkgray;
@@ -26,7 +26,7 @@ const Bar = styled(Box)`
 const LanguageText = styled(Text)`
   position: absolute;
   top: 50%;
-  right: -2.5rem;
+  right: -8.5rem;
   transform: translateY(-50%);
   writing-mode: vertical-rl;
   text-orientation: upright;

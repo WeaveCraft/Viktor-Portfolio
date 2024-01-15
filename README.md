@@ -9,4 +9,3 @@ https://www.craftz.dog/
 [Chakra UI](https://chakra-ui.com/)
 
 [Framer Motion](https://www.framer.com/motion/)
-
